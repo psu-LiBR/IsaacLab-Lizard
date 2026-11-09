@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Dracobot_Simulation">
+    <link name="RDS3225_v7_Copy_1_1__Support_large_v4_2_1">
+        <inertial>
+            <origin xyz="-0.15151492286753698 -0.042976167044104896 0.020330915420925678" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_1_1__Support_large_v4_2_1_visual">
+            <origin xyz="-0.151514922867537 -0.02033091542092569 0.04297616704410478" rpy="1.5707963267948968 0.0000000000000007996663552062517 -3.141592653589793" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_1_1__Support_large_v4_2_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_1_1__Support_large_v4_2_1_collision">
+            <origin xyz="-0.151514922867537 -0.02033091542092569 0.04297616704410478" rpy="1.5707963267948968 0.0000000000000007996663552062517 -3.141592653589793" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_1_1__Support_large_v4_2_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="head_1">
+        <inertial>
+            <origin xyz="-0.02870817068388579 -0.0000001168047436195252 -0.02895988332968244" rpy="0 0 0" />
+            <mass value="0.12275645296766377" />
+            <inertia ixx="0.00003415982702740676" iyy="0.00010530553271725267" izz="0.00009758305358121763" ixy="0.0000000007299362087001564" iyz="0.00000000011641427337727438" ixz="-0.000011345010314857986" />
+        </inertial>
+        <visual name="head_1_visual">
+            <origin xyz="-0.1207914940607841 -0.009999995420925927 -0.05105000295589529" rpy="0.00000000000000001752553644887637 -0.000000000000000922131035120987 -0.000000000000000000000000000000021296085912637367" />
+            <geometry>
+                <mesh filename="meshes/head_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="head_1_collision">
+            <origin xyz="-0.1207914940607841 -0.009999995420925927 -0.05105000295589529" rpy="0.00000000000000001752553644887637 -0.000000000000000922131035120987 -0.000000000000000000000000000000021296085912637367" />
+            <geometry>
+                <mesh filename="meshes/head_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_1__Support_large_v4_1_1">
+        <inertial>
+            <origin xyz="0.151514922867537 -0.04297616704410492 0.036569084579074276" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_1__Support_large_v4_1_1_visual">
+            <origin xyz="-0.15151492286753704 0.03656908457907427 0.04297616704410477" rpy="1.5707963267948966 -0.0000000000000009221310351209873 0.00000000000000011102230246252007" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_1__Support_large_v4_1_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_1__Support_large_v4_1_1_collision">
+            <origin xyz="-0.15151492286753704 0.03656908457907427 0.04297616704410477" rpy="1.5707963267948966 -0.0000000000000009221310351209873 0.00000000000000011102230246252007" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_1__Support_large_v4_1_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_2_1__Component48_1">
+        <inertial>
+            <origin xyz="0.11961492286753703 0.0018809154209257343 -0.057976167044104875" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_2_1__Component48_1_visual">
+            <origin xyz="-0.11961492286753705 -0.0018809154209257282 0.05797616704410482" rpy="-0.00000000000000010493914346585905 -0.0000000000000004502862496552961 -0.000000000000000000000000000003760112050760922" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_2_1__Component48_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_2_1__Component48_1_collision">
+            <origin xyz="-0.11961492286753705 -0.0018809154209257282 0.05797616704410482" rpy="-0.00000000000000010493914346585905 -0.0000000000000004502862496552961 -0.000000000000000000000000000003760112050760922" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_2_1__Component48_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_2_1__Support_large_v4_3_1">
+        <inertial>
+            <origin xyz="0.05722616704410491 0.001880915420925719 0.10016492286753706" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_2_1__Support_large_v4_3_1_visual">
+            <origin xyz="-0.10016492286753709 -0.001880915420925724 0.05722616704410486" rpy="-0.00000000000000011102230246252 1.5707963267948961 0" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_2_1__Support_large_v4_3_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_2_1__Support_large_v4_3_1_collision">
+            <origin xyz="-0.10016492286753709 -0.001880915420925724 0.05722616704410486" rpy="-0.00000000000000011102230246252 1.5707963267948961 0" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_2_1__Support_large_v4_3_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="midsection_1">
+        <inertial>
+            <origin xyz="-0.08016885699247168 0.000015381073204584485 0.013662825304412839" rpy="0 0 0" />
+            <mass value="0.9188422541474334" />
+            <inertia ixx="0.006960738051063592" iyy="0.007704548720116123" izz="0.011854458293073284" ixy="0.00000006910863603563804" iyz="-0.0000005552967793458128" ixz="0.00019639234714337824" />
+        </inertial>
+        <visual name="midsection_1_visual">
+            <origin xyz="-0.05108669290222268 -0.0081884758627411 -0.08292731653661234" rpy="0.00000000000000013999021636361162 -0.0000000000000000339884295182866 -0.00000000000000000000000000000000573091030634705" />
+            <geometry>
+                <mesh filename="meshes/midsection_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="midsection_1_collision">
+            <origin xyz="-0.05108669290222268 -0.0081884758627411 -0.08292731653661234" rpy="0.00000000000000013999021636361162 -0.0000000000000000339884295182866 -0.00000000000000000000000000000000573091030634705" />
+            <geometry>
+                <mesh filename="meshes/midsection_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_3_1__Component56_1">
+        <inertial>
+            <origin xyz="-0.0401850771324625 0.0018809154209256497 -0.05722616704410489" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_3_1__Component56_1_visual">
+            <origin xyz="0.04018507713246249 -0.0018809154209256508 0.057226167044104895" rpy="0.00000000000000001752553644887633 -0.00000000000000016628964194233066 -0.000000000000000000000000000000002914315180930904" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_3_1__Component56_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_3_1__Component56_1_collision">
+            <origin xyz="0.04018507713246249 -0.0018809154209256508 0.057226167044104895" rpy="0.00000000000000001752553644887633 -0.00000000000000016628964194233066 -0.000000000000000000000000000000002914315180930904" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_3_1__Component56_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_3_1__Support_large_v4_4_1">
+        <inertial>
+            <origin xyz="0.05647616704410497 0.001880915420925652 -0.05963507713246244" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_3_1__Support_large_v4_4_1_visual">
+            <origin xyz="0.05963507713246246 -0.0018809154209256463 0.05647616704410495" rpy="-0.00000000000000011102230246252004 1.5707963267948963 0" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_3_1__Support_large_v4_4_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_3_1__Support_large_v4_4_1_collision">
+            <origin xyz="0.05963507713246246 -0.0018809154209256463 0.05647616704410495" rpy="-0.00000000000000011102230246252004 1.5707963267948963 0" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_3_1__Support_large_v4_4_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="rear_1">
+        <inertial>
+            <origin xyz="0.12688696555804918 0.008118404620319 0.05365779326190062" rpy="0 0 0" />
+            <mass value="0.13297151304410268" />
+            <inertia ixx="0.000040050606024931055" iyy="0.0001499214977034721" izz="0.0001371294495869182" ixy="-0.0000000028372429792958634" iyz="0.0000000003234086519367154" ixz="-0.000008628361265205792" />
+        </inertial>
+        <visual name="rear_1_visual">
+            <origin xyz="0.04019358593921547 -0.0018809154209258416 0.03117616704410495" rpy="0.00000000000000013999021636361167 0.00000000000000019156143645612222 0.0000000000000000000000000000039196526228169024" />
+            <geometry>
+                <mesh filename="meshes/rear_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="rear_1_collision">
+            <origin xyz="0.04019358593921547 -0.0018809154209258416 0.03117616704410495" rpy="0.00000000000000013999021636361167 0.00000000000000019156143645612222 0.0000000000000000000000000000039196526228169024" />
+            <geometry>
+                <mesh filename="meshes/rear_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_4_1__Component64_1">
+        <inertial>
+            <origin xyz="-0.14998507713246242 0.0018809154209255363 -0.05647616704410503" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_4_1__Component64_1_visual">
+            <origin xyz="0.14998507713246245 -0.0018809154209255441 0.056476167044104936" rpy="0.0000000000000001399902163636116 0.0000000000000006634062219218132 0.00000000000000000000000000000007395570986446986" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_4_1__Component64_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_4_1__Component64_1_collision">
+            <origin xyz="0.14998507713246245 -0.0018809154209255441 0.056476167044104936" rpy="0.0000000000000001399902163636116 0.0000000000000006634062219218132 0.00000000000000000000000000000007395570986446986" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_4_1__Component64_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_4_1__Support_large_v4_5_1">
+        <inertial>
+            <origin xyz="0.05572616704410498 0.0018809154209253407 -0.16943507713246259" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_4_1__Support_large_v4_5_1_visual">
+            <origin xyz="0.1694350771324626 -0.0018809154209255554 0.05572616704410488" rpy="0.000000000000001221245327087696 1.5707963267948961 0" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_4_1__Support_large_v4_5_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_4_1__Support_large_v4_5_1_collision">
+            <origin xyz="0.1694350771324626 -0.0018809154209255554 0.05572616704410488" rpy="0.000000000000001221245327087696 1.5707963267948961 0" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_4_1__Support_large_v4_5_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="tail_1">
+        <inertial>
+            <origin xyz="0.03898352146237517 0.000001749617498348899 0.033271790723768" rpy="0 0 0" />
+            <mass value="0.031159487202583287" />
+            <inertia ixx="0.000011149258135916218" iyy="0.000021355393452414557" izz="0.000013532293336835421" ixy="0.0000000006545306999099589" iyz="0.000000000005185920826948778" ixz="-0.0000018131808187189215" />
+        </inertial>
+        <visual name="tail_1_visual">
+            <origin xyz="-0.010991494060784373 -0.010000004579074621 0.0012000029558950941" rpy="0.00000000000000013999021636361174 -0.0000000000000007484076722446758 -0.000000000000000000000000000003944304526105059" />
+            <geometry>
+                <mesh filename="meshes/tail_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="tail_1_collision">
+            <origin xyz="-0.010991494060784373 -0.010000004579074621 0.0012000029558950941" rpy="0.00000000000000013999021636361174 -0.0000000000000007484076722446758 -0.000000000000000000000000000003944304526105059" />
+            <geometry>
+                <mesh filename="meshes/tail_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_5_1__Support_large_v4_6_1">
+        <inertial>
+            <origin xyz="0.11287656832570925 -0.040776167044105055 0.0203309154209256" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_5_1__Support_large_v4_6_1_visual">
+            <origin xyz="0.11287656832570925 -0.020330915420925594 0.04077616704410504" rpy="1.5707963267948966 -0.0000000000000000690967565413868 -3.141592653589793" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_5_1__Support_large_v4_6_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_5_1__Support_large_v4_6_1_collision">
+            <origin xyz="0.11287656832570925 -0.020330915420925594 0.04077616704410504" rpy="1.5707963267948966 -0.0000000000000000690967565413868 -3.141592653589793" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_5_1__Support_large_v4_6_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_6_1__Support_large_v4_7_1">
+        <inertial>
+            <origin xyz="-0.11287656832570923 -0.040776167044105055 0.03656908457907435" rpy="0 0 0" />
+            <mass value="0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_6_1__Support_large_v4_7_1_visual">
+            <origin xyz="0.11287656832570925 0.03656908457907436 0.04077616704410504" rpy="1.5707963267948968 0.0000000000000001915614364561222 0.00000000000000011102230246252394" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_6_1__Support_large_v4_7_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_6_1__Support_large_v4_7_1_collision">
+            <origin xyz="0.11287656832570925 0.03656908457907436 0.04077616704410504" rpy="1.5707963267948968 0.0000000000000001915614364561222 0.00000000000000011102230246252394" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_6_1__Support_large_v4_7_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_1_1__Component40_1">
+        <inertial>
+            <origin xyz="-0.0000002635078390067491 -0.012106012154464368 -0.027263768605668072" rpy="0 0 0" />
+            <mass value="0.07460481023034166" />
+            <inertia ixx="0.000024824467286786635" iyy="0.000015248078451454141" izz="0.000014410061013658826" ixy="0.00000000004899119087839466" iyz="0.000000017596940342205416" ixz="0.00000000003429823439453449" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_1_1__Component40_1_visual">
+            <origin xyz="-0.010000002955895404 -0.010991486614172593 -0.027149997132462966" rpy="3.141592653589792 -0.00000000000000005551115123125793 1.5707963267948966" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_1_1__Component40_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_1_1__Component40_1_collision">
+            <origin xyz="-0.010000002955895404 -0.010991486614172593 -0.027149997132462966" rpy="3.141592653589792 -0.00000000000000005551115123125793 1.5707963267948966" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_1_1__Component40_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_1__Component32_1">
+        <inertial>
+            <origin xyz="0.00000025759604857178434 0.01210602131261294 -0.02726376860566811" rpy="0 0 0" />
+            <mass value="0.07460481023034166" />
+            <inertia ixx="0.00002482446728678642" iyy="0.000015248078451454575" izz="0.000014410061013658772" ixy="0.00000000004899119085128959" iyz="-0.00000001759694034204297" ixz="-0.000000000034298234283074165" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_1__Component32_1_visual">
+            <origin xyz="0.00999999704410497 0.01099149577232116 -0.027149997132462966" rpy="-3.141592653589793 -0.00000000000000005551115123125759 -1.5707963267948968" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_1__Component32_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_1__Component32_1_collision">
+            <origin xyz="0.00999999704410497 0.01099149577232116 -0.027149997132462966" rpy="-3.141592653589793 -0.00000000000000005551115123125759 -1.5707963267948968" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_1__Component32_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_5_1__Component72_1">
+        <inertial>
+            <origin xyz="0.0000002575960486339568 -0.0121145209612174 -0.025636226852504152" rpy="0 0 0" />
+            <mass value="0.07460481023034166" />
+            <inertia ixx="0.000024824467286786852" iyy="0.000015248078451454575" izz="0.000014410061013658772" ixy="-0.0000000000489911909054997" iyz="-0.00000001759694034209718" ixz="0.00000000003429823438845426" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_5_1__Component72_1_visual">
+            <origin xyz="0.009999997044105032 -0.010999995420925624 -0.02574999832570928" rpy="0.00000000000000006909675654138687 -0.0000000000000000000000000000038456969129524326 1.5707963267948963" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_5_1__Component72_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_5_1__Component72_1_collision">
+            <origin xyz="0.009999997044105032 -0.010999995420925624 -0.02574999832570928" rpy="0.00000000000000006909675654138687 -0.0000000000000000000000000000038456969129524326 1.5707963267948963" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_5_1__Component72_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="RDS3225_v7_Copy_6_1__Component80_1">
+        <inertial>
+            <origin xyz="-0.0000002635078385537781 0.012114530119366123 -0.025636226852504135" rpy="0 0 0" />
+            <mass value="0.07460481023034166" />
+            <inertia ixx="0.000024824467286786852" iyy="0.000015248078451454575" izz="0.000014410061013658772" ixy="-0.00000000004899119087839466" iyz="0.000000017596940342151206" ixz="-0.00000000003429823433728426" />
+        </inertial>
+        <visual name="RDS3225_v7_Copy_6_1__Component80_1_visual">
+            <origin xyz="-0.010000002955894951 0.011000004579074352 -0.025749998325709244" rpy="-0.00000000000000019156143645612214 0.000000000000000000000000000003870348816240589 -1.570796326794897" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_6_1__Component80_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="RDS3225_v7_Copy_6_1__Component80_1_collision">
+            <origin xyz="-0.010000002955894951 0.011000004579074352 -0.025749998325709244" rpy="-0.00000000000000019156143645612214 0.000000000000000000000000000003870348816240589 -1.570796326794897" />
+            <geometry>
+                <mesh filename="meshes/RDS3225_v7_Copy_6_1__Component80_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="Rigid_2" type="fixed">
+        <parent link="head_1" />
+        <child link="RDS3225_v7_Copy_1_1__Support_large_v4_2_1" />
+    </joint>
+    <joint name="Rigid_3" type="fixed">
+        <parent link="head_1" />
+        <child link="RDS3225_v7_Copy_1__Support_large_v4_1_1" />
+    </joint>
+    <joint name="Rigid_4" type="fixed">
+        <parent link="head_1" />
+        <child link="RDS3225_v7_Copy_2_1__Component48_1" />
+    </joint>
+    <joint name="Rigid_5" type="fixed">
+        <parent link="midsection_1" />
+        <child link="RDS3225_v7_Copy_2_1__Support_large_v4_3_1" />
+    </joint>
+    <joint name="Rigid_6" type="fixed">
+        <parent link="midsection_1" />
+        <child link="RDS3225_v7_Copy_3_1__Component56_1" />
+    </joint>
+    <joint name="Rigid_7" type="fixed">
+        <parent link="rear_1" />
+        <child link="RDS3225_v7_Copy_3_1__Support_large_v4_4_1" />
+    </joint>
+    <joint name="Rigid_8" type="fixed">
+        <parent link="rear_1" />
+        <child link="RDS3225_v7_Copy_4_1__Component64_1" />
+    </joint>
+    <joint name="Rigid_9" type="fixed">
+        <parent link="tail_1" />
+        <child link="RDS3225_v7_Copy_4_1__Support_large_v4_5_1" />
+    </joint>
+    <joint name="Rigid_10" type="fixed">
+        <parent link="rear_1" />
+        <child link="RDS3225_v7_Copy_5_1__Support_large_v4_6_1" />
+    </joint>
+    <joint name="Rigid_11" type="fixed">
+        <parent link="rear_1" />
+        <child link="RDS3225_v7_Copy_6_1__Support_large_v4_7_1" />
+    </joint>
+    <joint name="Revolute_29" type="revolute">
+        <origin xyz="-0.0694 -0.036899999999999995 -0.030750000000000003" rpy="0.00000000000000011102230246252004 -1.5707963267948961 0" />
+        <parent link="head_1" />
+        <child link="RDS3225_v7_Copy_1_1__Component40_1" />
+        <axis xyz="0 0.00000000000000011102230246252002 1" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="Revolute_31" type="revolute">
+        <origin xyz="-0.0694 0.0369 -0.030749999999999993" rpy="0.00000000000000011102230246251997 -1.5707963267948961 0" />
+        <parent link="head_1" />
+        <child link="RDS3225_v7_Copy_1__Component32_1" />
+        <axis xyz="0 0.00000000000000011102230246251997 1" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="Revolute_32" type="revolute">
+        <origin xyz="-0.1598 0 0.0007499999999999929" rpy="-0.00000000000000000000000000000004930380657631324 0.000000000000000000000000000000000000000000000000000000000000030846568448561186 -0.0000000000000000000000000000000000000000000002518813462790885" />
+        <parent link="midsection_1" />
+        <child link="head_1" />
+        <axis xyz="0 -0.00000000000000012246467991473537 1" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="Revolute_33" type="revolute">
+        <origin xyz="0.05118508 0.008119079999999999 0.08297617" rpy="-0.00000000000000012246467991473532 0 0.00000000000000000000000000000000000000000000025179581780836557" />
+        <parent link="rear_1" />
+        <child link="midsection_1" />
+        <axis xyz="0 -0.00000000000000012246467991473532 1" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="Revolute_34" type="revolute">
+        <origin xyz="0.08637657000000001 -0.02878092 0.05077617" rpy="0.00000000000000011102230246251994 -1.5707963267948966 0" />
+        <parent link="rear_1" />
+        <child link="RDS3225_v7_Copy_5_1__Component72_1" />
+        <axis xyz="0 0.00000000000000011102230246251994 1" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="Revolute_36" type="revolute">
+        <origin xyz="0.16098508 0.008119079999999999 0.08222617" rpy="3.141592653589793 0 0.00000000000000000000000000000000000000000000025179581780836557" />
+        <parent link="rear_1" />
+        <child link="tail_1" />
+        <axis xyz="0 -0.00000000000000000000000000000002773339119917633 1" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="Revolute_37" type="revolute">
+        <origin xyz="0.08637657000000001 0.04501908 0.05077617" rpy="0.00000000000000011102230246252002 -1.5707963267948966 0" />
+        <parent link="rear_1" />
+        <child link="RDS3225_v7_Copy_6_1__Component80_1" />
+        <axis xyz="0 0.00000000000000011102230246252002 1" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+</robot>
