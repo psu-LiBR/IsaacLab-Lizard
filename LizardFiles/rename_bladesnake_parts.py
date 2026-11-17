@@ -26,6 +26,9 @@ inertia). Any servo link whose mass is not set gets ``--servo-mass`` (default 57
 the XL430-W250-T), with the center of mass and inertia computed from its mesh assuming
 uniform density. ``--undo`` only restores names; the mass fix is kept.
 
+Check in Isaacsim or another sim platform for joint orientation. Some joints may come in
+with opposite directions because of the order the parts were assigned in Onshape.
+
 Usage::
 
     python LizardFiles/rename_bladesnake_parts.py              # all assemblies in LizardFiles/BladeSnake
