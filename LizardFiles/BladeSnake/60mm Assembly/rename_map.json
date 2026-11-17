@@ -1,0 +1,161 @@
+{
+  "links": {
+    "link1": {
+      "old_prim": "_MjBLMIiEhsJtWdrHk",
+      "old_name": "SnakeFront <3>",
+      "json_id": "MjBLMIiEhsJtWdrHk"
+    },
+    "servo1": {
+      "old_prim": "_MY6_8coFRhVRStLUa",
+      "old_name": "XL430-W250-T_1AxisServo <1>",
+      "json_id": "MY6+8coFRhVRStLUa"
+    },
+    "link2": {
+      "old_prim": "_Mx9xu8nwoZ1blNc64",
+      "old_name": "SnakeBody <1>",
+      "json_id": "Mx9xu8nwoZ1blNc64"
+    },
+    "servo2": {
+      "old_prim": "_M0E4EUnrBirM7Gx83",
+      "old_name": "XL430-W250-T_1AxisServo <5>",
+      "json_id": "M0E4EUnrBirM7Gx83"
+    },
+    "link3": {
+      "old_prim": "_M5xauL3lJW4uSME_V",
+      "old_name": "SnakeBody <6>",
+      "json_id": "M5xauL3lJW4uSME+V"
+    },
+    "servo3": {
+      "old_prim": "_MqxTgyPpzd5rzy25E",
+      "old_name": "XL430-W250-T_1AxisServo <2>",
+      "json_id": "MqxTgyPpzd5rzy25E"
+    },
+    "link4": {
+      "old_prim": "_MjlyI0Zu_ZG5ur4Wt",
+      "old_name": "SnakeBody <4>",
+      "json_id": "MjlyI0Zu+ZG5ur4Wt"
+    },
+    "servo4": {
+      "old_prim": "_MVoACEE6RItOBaaOM",
+      "old_name": "XL430-W250-T_1AxisServo <4>",
+      "json_id": "MVoACEE6RItOBaaOM"
+    },
+    "link5": {
+      "old_prim": "_MVGPnbxdoVRLzajDB",
+      "old_name": "SnakeBody <5>",
+      "json_id": "MVGPnbxdoVRLzajDB"
+    },
+    "servo5": {
+      "old_prim": "_Mv7hdUadfiLGhLSRD",
+      "old_name": "XL430-W250-T_1AxisServo <3>",
+      "json_id": "Mv7hdUadfiLGhLSRD"
+    },
+    "link6": {
+      "old_prim": "_MfgOCFQSaiTe_sQ0m",
+      "old_name": "SnakeTail <2>",
+      "json_id": "MfgOCFQSaiTe+sQ0m"
+    }
+  },
+  "joints": {
+    "joint1": {
+      "old_prim": "_MMisxoa_F22ItJuN6",
+      "old_name": "J1",
+      "json_id": "MMisxoa/F22ItJuN6",
+      "type": "PhysicsRevoluteJoint",
+      "connects": [
+        "servo1",
+        "link1"
+      ]
+    },
+    "fixed1": {
+      "old_prim": "_Mbhy2YJxTRMD9xVQe",
+      "old_name": "Fastened 1",
+      "json_id": "Mbhy2YJxTRMD9xVQe",
+      "type": "PhysicsFixedJoint",
+      "connects": [
+        "link2",
+        "servo1"
+      ]
+    },
+    "joint2": {
+      "old_prim": "_MqpC9cImQXVa8IAhh",
+      "old_name": "J2",
+      "json_id": "MqpC9cImQXVa8IAhh",
+      "type": "PhysicsRevoluteJoint",
+      "connects": [
+        "link2",
+        "servo2"
+      ]
+    },
+    "fixed2": {
+      "old_prim": "_Ma51WkOgz_7GxeB4T",
+      "old_name": "Fastened 2",
+      "json_id": "Ma51WkOgz+7GxeB4T",
+      "type": "PhysicsFixedJoint",
+      "connects": [
+        "link3",
+        "servo2"
+      ]
+    },
+    "joint3": {
+      "old_prim": "_MrYHzqJuCnmqotBE5",
+      "old_name": "J3",
+      "json_id": "MrYHzqJuCnmqotBE5",
+      "type": "PhysicsRevoluteJoint",
+      "connects": [
+        "servo3",
+        "link3"
+      ]
+    },
+    "fixed3": {
+      "old_prim": "_Mz5RYMxTIS0uQY3Fu",
+      "old_name": "Fastened 3",
+      "json_id": "Mz5RYMxTIS0uQY3Fu",
+      "type": "PhysicsFixedJoint",
+      "connects": [
+        "link4",
+        "servo3"
+      ]
+    },
+    "joint4": {
+      "old_prim": "_MOY9UdBCfn1naYsml",
+      "old_name": "J4",
+      "json_id": "MOY9UdBCfn1naYsml",
+      "type": "PhysicsRevoluteJoint",
+      "connects": [
+        "link4",
+        "servo4"
+      ]
+    },
+    "fixed4": {
+      "old_prim": "_Miq1lslwTNDYGqG5b",
+      "old_name": "Fastened 4",
+      "json_id": "Miq1lslwTNDYGqG5b",
+      "type": "PhysicsFixedJoint",
+      "connects": [
+        "link5",
+        "servo4"
+      ]
+    },
+    "joint5": {
+      "old_prim": "_MdGT0_xftRKCp9q9h",
+      "old_name": "J5",
+      "json_id": "MdGT0+xftRKCp9q9h",
+      "type": "PhysicsRevoluteJoint",
+      "connects": [
+        "link5",
+        "servo5"
+      ]
+    },
+    "fixed5": {
+      "old_prim": "_M9WHwFa_HfE4QVDSZ",
+      "old_name": "Fastened 5",
+      "json_id": "M9WHwFa+HfE4QVDSZ",
+      "type": "PhysicsFixedJoint",
+      "connects": [
+        "link6",
+        "servo5"
+      ]
+    }
+  }
+}

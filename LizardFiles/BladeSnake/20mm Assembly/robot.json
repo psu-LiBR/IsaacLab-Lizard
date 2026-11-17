@@ -7,9 +7,9 @@
   "Configuration": "",
   "Joints": [
     {
-      "Name": "J1",
+      "Name": "joint1",
       "Type": "REVOLUTE",
-      "Id": "MMisxoa/F22ItJuN6",
+      "Id": "joint1",
       "Enabled": true,
       "Friction": "",
       "Stiffness": "10",
@@ -22,8 +22,8 @@
       "MaxTorque": "1.5",
       "Feature": {
         "FeatureType": "mate",
-        "Name": "J1",
-        "FeatureId": "MMisxoa/F22ItJuN6",
+        "Name": "joint1",
+        "FeatureId": "joint1",
         "Parameters": [
           {
             "NodeId": "cuE99nsk9pCe6Hez",
@@ -185,9 +185,9 @@
       }
     },
     {
-      "Name": "J2",
+      "Name": "joint2",
       "Type": "REVOLUTE",
-      "Id": "MqpC9cImQXVa8IAhh",
+      "Id": "joint2",
       "Enabled": true,
       "Friction": "",
       "Stiffness": "10",
@@ -200,8 +200,8 @@
       "MaxTorque": "1.5",
       "Feature": {
         "FeatureType": "mate",
-        "Name": "J2",
-        "FeatureId": "MqpC9cImQXVa8IAhh",
+        "Name": "joint2",
+        "FeatureId": "joint2",
         "Parameters": [
           {
             "NodeId": "jjiyFb5mgRrLZfnT",
@@ -363,9 +363,9 @@
       }
     },
     {
-      "Name": "J3",
+      "Name": "joint3",
       "Type": "REVOLUTE",
-      "Id": "MrYHzqJuCnmqotBE5",
+      "Id": "joint3",
       "Enabled": true,
       "Friction": "",
       "Stiffness": "10",
@@ -378,8 +378,8 @@
       "MaxTorque": "1.5",
       "Feature": {
         "FeatureType": "mate",
-        "Name": "J3",
-        "FeatureId": "MrYHzqJuCnmqotBE5",
+        "Name": "joint3",
+        "FeatureId": "joint3",
         "Parameters": [
           {
             "NodeId": "hcNVXjmm83vfOZx0",
@@ -541,9 +541,9 @@
       }
     },
     {
-      "Name": "J4",
+      "Name": "joint4",
       "Type": "REVOLUTE",
-      "Id": "MOY9UdBCfn1naYsml",
+      "Id": "joint4",
       "Enabled": true,
       "Friction": "",
       "Stiffness": "10",
@@ -556,8 +556,8 @@
       "MaxTorque": "1.5",
       "Feature": {
         "FeatureType": "mate",
-        "Name": "J4",
-        "FeatureId": "MOY9UdBCfn1naYsml",
+        "Name": "joint4",
+        "FeatureId": "joint4",
         "Parameters": [
           {
             "NodeId": "/xXsZ383cOZq5wTm",
@@ -719,9 +719,9 @@
       }
     },
     {
-      "Name": "J5",
+      "Name": "joint5",
       "Type": "REVOLUTE",
-      "Id": "MdGT0+xftRKCp9q9h",
+      "Id": "joint5",
       "Enabled": true,
       "Friction": "",
       "Stiffness": "10",
@@ -734,8 +734,8 @@
       "MaxTorque": "1.5",
       "Feature": {
         "FeatureType": "mate",
-        "Name": "J5",
-        "FeatureId": "MdGT0+xftRKCp9q9h",
+        "Name": "joint5",
+        "FeatureId": "joint5",
         "Parameters": [
           {
             "NodeId": "K8sZPlYkKFylOsKe",
@@ -911,8 +911,8 @@
   ],
   "FixedInstances": [
     {
-      "Id": "MjBLMIiEhsJtWdrHk",
-      "Name": "SnakeFront \u003c1\u003e",
+      "Id": "link1",
+      "Name": "link1",
       "FastenedToGround": false
     }
   ],
@@ -921,38 +921,38 @@
     "JointEnabled": {},
     "JointFriction": {},
     "JointStiffness": {
-      "MMisxoa/F22ItJuN6": 10,
-      "MOY9UdBCfn1naYsml": 10,
-      "MdGT0+xftRKCp9q9h": 10,
-      "MqpC9cImQXVa8IAhh": 10,
-      "MrYHzqJuCnmqotBE5": 10
+      "joint1": 10,
+      "joint4": 10,
+      "joint5": 10,
+      "joint2": 10,
+      "joint3": 10
     },
     "JointDamping": {
-      "MMisxoa/F22ItJuN6": 0.35,
-      "MOY9UdBCfn1naYsml": 0.35,
-      "MdGT0+xftRKCp9q9h": 0.35,
-      "MqpC9cImQXVa8IAhh": 0.35,
-      "MrYHzqJuCnmqotBE5": 0.35
+      "joint1": 0.35,
+      "joint4": 0.35,
+      "joint5": 0.35,
+      "joint2": 0.35,
+      "joint3": 0.35
     },
     "JointDriven": {},
     "JointMinVelocity": {},
     "JointMaxVelocity": {
-      "MMisxoa/F22ItJuN6": 5.97,
-      "MOY9UdBCfn1naYsml": 5.97,
-      "MdGT0+xftRKCp9q9h": 5.97,
-      "MqpC9cImQXVa8IAhh": 5.97,
-      "MrYHzqJuCnmqotBE5": 5.97
+      "joint1": 5.97,
+      "joint4": 5.97,
+      "joint5": 5.97,
+      "joint2": 5.97,
+      "joint3": 5.97
     },
     "JointMaxTorque": {
-      "MMisxoa/F22ItJuN6": 1.5,
-      "MOY9UdBCfn1naYsml": 1.5,
-      "MdGT0+xftRKCp9q9h": 1.5,
-      "MqpC9cImQXVa8IAhh": 1.5,
-      "MrYHzqJuCnmqotBE5": 1.5
+      "joint1": 1.5,
+      "joint4": 1.5,
+      "joint5": 1.5,
+      "joint2": 1.5,
+      "joint3": 1.5
     },
     "RestPositionSelected": "",
     "FixedInstanceFastenToGround": {
-      "MjBLMIiEhsJtWdrHk": false
+      "link1": false
     },
     "ReferencePointEnabled": {}
   },
@@ -981,7 +981,7 @@
             1
           ],
           "Path": [
-            "M0E4EUnrBirM7Gx83"
+            "servo2"
           ]
         },
         {
@@ -1006,7 +1006,7 @@
             1
           ],
           "Path": [
-            "M5xauL3lJW4uSME+V"
+            "link3"
           ]
         },
         {
@@ -1031,7 +1031,7 @@
             1
           ],
           "Path": [
-            "MVGPnbxdoVRLzajDB"
+            "link5"
           ]
         },
         {
@@ -1056,7 +1056,7 @@
             1
           ],
           "Path": [
-            "MVoACEE6RItOBaaOM"
+            "servo4"
           ]
         },
         {
@@ -1081,7 +1081,7 @@
             1
           ],
           "Path": [
-            "MY6+8coFRhVRStLUa"
+            "servo1"
           ]
         },
         {
@@ -1106,7 +1106,7 @@
             1
           ],
           "Path": [
-            "MfgOCFQSaiTe+sQ0m"
+            "link6"
           ]
         },
         {
@@ -1131,7 +1131,7 @@
             1
           ],
           "Path": [
-            "MjBLMIiEhsJtWdrHk"
+            "link1"
           ]
         },
         {
@@ -1156,7 +1156,7 @@
             1
           ],
           "Path": [
-            "MjlyI0Zu+ZG5ur4Wt"
+            "link4"
           ]
         },
         {
@@ -1181,7 +1181,7 @@
             1
           ],
           "Path": [
-            "MqxTgyPpzd5rzy25E"
+            "servo3"
           ]
         },
         {
@@ -1206,7 +1206,7 @@
             1
           ],
           "Path": [
-            "Mv7hdUadfiLGhLSRD"
+            "servo5"
           ]
         },
         {
@@ -1231,18 +1231,18 @@
             1
           ],
           "Path": [
-            "Mx9xu8nwoZ1blNc64"
+            "link2"
           ]
         }
       ],
       "Patterns": [],
       "Features": [
         {
-          "Id": "MMisxoa/F22ItJuN6",
+          "Id": "joint1",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "J1",
+            "Name": "joint1",
             "MateType": "REVOLUTE",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1250,7 +1250,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "MY6+8coFRhVRStLUa"
+                  "servo1"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1277,7 +1277,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "MjBLMIiEhsJtWdrHk"
+                  "link1"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1312,11 +1312,11 @@
           }
         },
         {
-          "Id": "MqpC9cImQXVa8IAhh",
+          "Id": "joint2",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "J2",
+            "Name": "joint2",
             "MateType": "REVOLUTE",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1324,7 +1324,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "Mx9xu8nwoZ1blNc64"
+                  "link2"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1351,7 +1351,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "M0E4EUnrBirM7Gx83"
+                  "servo2"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1386,11 +1386,11 @@
           }
         },
         {
-          "Id": "MrYHzqJuCnmqotBE5",
+          "Id": "joint3",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "J3",
+            "Name": "joint3",
             "MateType": "REVOLUTE",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1398,7 +1398,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "MqxTgyPpzd5rzy25E"
+                  "servo3"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1425,7 +1425,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "M5xauL3lJW4uSME+V"
+                  "link3"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1460,11 +1460,11 @@
           }
         },
         {
-          "Id": "MOY9UdBCfn1naYsml",
+          "Id": "joint4",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "J4",
+            "Name": "joint4",
             "MateType": "REVOLUTE",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1472,7 +1472,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "MjlyI0Zu+ZG5ur4Wt"
+                  "link4"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1499,7 +1499,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "MVoACEE6RItOBaaOM"
+                  "servo4"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1534,11 +1534,11 @@
           }
         },
         {
-          "Id": "MdGT0+xftRKCp9q9h",
+          "Id": "joint5",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "J5",
+            "Name": "joint5",
             "MateType": "REVOLUTE",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1546,7 +1546,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "MVGPnbxdoVRLzajDB"
+                  "link5"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1573,7 +1573,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "Mv7hdUadfiLGhLSRD"
+                  "servo5"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1608,11 +1608,11 @@
           }
         },
         {
-          "Id": "Mbhy2YJxTRMD9xVQe",
+          "Id": "fixed1",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "Fastened 1",
+            "Name": "fixed1",
             "MateType": "FASTENED",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1620,7 +1620,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "Mx9xu8nwoZ1blNc64"
+                  "link2"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1647,7 +1647,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "MY6+8coFRhVRStLUa"
+                  "servo1"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1682,11 +1682,11 @@
           }
         },
         {
-          "Id": "Ma51WkOgz+7GxeB4T",
+          "Id": "fixed2",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "Fastened 2",
+            "Name": "fixed2",
             "MateType": "FASTENED",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1694,7 +1694,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "M5xauL3lJW4uSME+V"
+                  "link3"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1721,7 +1721,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "M0E4EUnrBirM7Gx83"
+                  "servo2"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1756,11 +1756,11 @@
           }
         },
         {
-          "Id": "Mz5RYMxTIS0uQY3Fu",
+          "Id": "fixed3",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "Fastened 3",
+            "Name": "fixed3",
             "MateType": "FASTENED",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1768,7 +1768,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "MjlyI0Zu+ZG5ur4Wt"
+                  "link4"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1795,7 +1795,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "MqxTgyPpzd5rzy25E"
+                  "servo3"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1830,11 +1830,11 @@
           }
         },
         {
-          "Id": "Miq1lslwTNDYGqG5b",
+          "Id": "fixed4",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "Fastened 4",
+            "Name": "fixed4",
             "MateType": "FASTENED",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1842,7 +1842,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "MVGPnbxdoVRLzajDB"
+                  "link5"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1869,7 +1869,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "MVoACEE6RItOBaaOM"
+                  "servo4"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1904,11 +1904,11 @@
           }
         },
         {
-          "Id": "M9WHwFa+HfE4QVDSZ",
+          "Id": "fixed5",
           "Suppressed": false,
           "FeatureType": "mate",
           "FeatureData": {
-            "Name": "Fastened 5",
+            "Name": "fixed5",
             "MateType": "FASTENED",
             "MateConnectorCS": null,
             "Occurrence": null,
@@ -1916,7 +1916,7 @@
             "MatedEntities": [
               {
                 "MatedOccurrence": [
-                  "MfgOCFQSaiTe+sQ0m"
+                  "link6"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1943,7 +1943,7 @@
               },
               {
                 "MatedOccurrence": [
-                  "Mv7hdUadfiLGhLSRD"
+                  "servo5"
                 ],
                 "MatedCS": {
                   "Origin": [
@@ -1981,9 +1981,9 @@
       "Instances": [
         {
           "Type": "Part",
-          "Id": "MjBLMIiEhsJtWdrHk",
+          "Id": "link1",
           "IsStandardContent": false,
-          "Name": "SnakeFront \u003c1\u003e",
+          "Name": "link1",
           "Suppressed": false,
           "PartId": "JHD",
           "FullConfiguration": "default",
@@ -1995,9 +1995,9 @@
         },
         {
           "Type": "Part",
-          "Id": "Mx9xu8nwoZ1blNc64",
+          "Id": "link2",
           "IsStandardContent": false,
-          "Name": "SnakeBody \u003c1\u003e",
+          "Name": "link2",
           "Suppressed": false,
           "PartId": "JHD",
           "FullConfiguration": "default",
@@ -2009,9 +2009,9 @@
         },
         {
           "Type": "Part",
-          "Id": "M5xauL3lJW4uSME+V",
+          "Id": "link3",
           "IsStandardContent": false,
-          "Name": "SnakeBody \u003c6\u003e",
+          "Name": "link3",
           "Suppressed": false,
           "PartId": "JHD",
           "FullConfiguration": "default",
@@ -2023,9 +2023,9 @@
         },
         {
           "Type": "Part",
-          "Id": "MjlyI0Zu+ZG5ur4Wt",
+          "Id": "link4",
           "IsStandardContent": false,
-          "Name": "SnakeBody \u003c4\u003e",
+          "Name": "link4",
           "Suppressed": false,
           "PartId": "JHD",
           "FullConfiguration": "default",
@@ -2037,9 +2037,9 @@
         },
         {
           "Type": "Part",
-          "Id": "MVGPnbxdoVRLzajDB",
+          "Id": "link5",
           "IsStandardContent": false,
-          "Name": "SnakeBody \u003c5\u003e",
+          "Name": "link5",
           "Suppressed": false,
           "PartId": "JHD",
           "FullConfiguration": "default",
@@ -2051,9 +2051,9 @@
         },
         {
           "Type": "Part",
-          "Id": "MfgOCFQSaiTe+sQ0m",
+          "Id": "link6",
           "IsStandardContent": false,
-          "Name": "SnakeTail \u003c2\u003e",
+          "Name": "link6",
           "Suppressed": false,
           "PartId": "JHD",
           "FullConfiguration": "default",
@@ -2065,9 +2065,9 @@
         },
         {
           "Type": "Part",
-          "Id": "MY6+8coFRhVRStLUa",
+          "Id": "servo1",
           "IsStandardContent": false,
-          "Name": "XL430-W250-T_1AxisServo \u003c1\u003e",
+          "Name": "servo1",
           "Suppressed": false,
           "PartId": "JFD",
           "FullConfiguration": "default",
@@ -2079,9 +2079,9 @@
         },
         {
           "Type": "Part",
-          "Id": "M0E4EUnrBirM7Gx83",
+          "Id": "servo2",
           "IsStandardContent": false,
-          "Name": "XL430-W250-T_1AxisServo \u003c5\u003e",
+          "Name": "servo2",
           "Suppressed": false,
           "PartId": "JFD",
           "FullConfiguration": "default",
@@ -2093,9 +2093,9 @@
         },
         {
           "Type": "Part",
-          "Id": "MqxTgyPpzd5rzy25E",
+          "Id": "servo3",
           "IsStandardContent": false,
-          "Name": "XL430-W250-T_1AxisServo \u003c2\u003e",
+          "Name": "servo3",
           "Suppressed": false,
           "PartId": "JFD",
           "FullConfiguration": "default",
@@ -2107,9 +2107,9 @@
         },
         {
           "Type": "Part",
-          "Id": "MVoACEE6RItOBaaOM",
+          "Id": "servo4",
           "IsStandardContent": false,
-          "Name": "XL430-W250-T_1AxisServo \u003c4\u003e",
+          "Name": "servo4",
           "Suppressed": false,
           "PartId": "JFD",
           "FullConfiguration": "default",
@@ -2121,9 +2121,9 @@
         },
         {
           "Type": "Part",
-          "Id": "Mv7hdUadfiLGhLSRD",
+          "Id": "servo5",
           "IsStandardContent": false,
-          "Name": "XL430-W250-T_1AxisServo \u003c3\u003e",
+          "Name": "servo5",
           "Suppressed": false,
           "PartId": "JFD",
           "FullConfiguration": "default",
@@ -2197,43 +2197,43 @@
   "BTAssemblyFeatureListResponse1174": {
     "SourceMicroversion": "edc6e9793c51d0e2191ecd04",
     "FeatureStates": {
-      "M9WHwFa+HfE4QVDSZ": {
+      "fixed5": {
         "FeatureStatus": "OK",
         "Inactive": false
       },
-      "MMisxoa/F22ItJuN6": {
+      "joint1": {
         "FeatureStatus": "OK",
         "Inactive": false
       },
-      "MOY9UdBCfn1naYsml": {
+      "joint4": {
         "FeatureStatus": "OK",
         "Inactive": false
       },
-      "Ma51WkOgz+7GxeB4T": {
+      "fixed2": {
         "FeatureStatus": "OK",
         "Inactive": false
       },
-      "Mbhy2YJxTRMD9xVQe": {
+      "fixed1": {
         "FeatureStatus": "OK",
         "Inactive": false
       },
-      "MdGT0+xftRKCp9q9h": {
+      "joint5": {
         "FeatureStatus": "OK",
         "Inactive": false
       },
-      "Miq1lslwTNDYGqG5b": {
+      "fixed4": {
         "FeatureStatus": "OK",
         "Inactive": false
       },
-      "MqpC9cImQXVa8IAhh": {
+      "joint2": {
         "FeatureStatus": "OK",
         "Inactive": false
       },
-      "MrYHzqJuCnmqotBE5": {
+      "joint3": {
         "FeatureStatus": "OK",
         "Inactive": false
       },
-      "Mz5RYMxTIS0uQY3Fu": {
+      "fixed3": {
         "FeatureStatus": "OK",
         "Inactive": false
       }
@@ -2241,8 +2241,8 @@
     "Features": [
       {
         "FeatureType": "mate",
-        "Name": "J1",
-        "FeatureId": "MMisxoa/F22ItJuN6",
+        "Name": "joint1",
+        "FeatureId": "joint1",
         "Parameters": [
           {
             "NodeId": "cuE99nsk9pCe6Hez",
@@ -2404,8 +2404,8 @@
       },
       {
         "FeatureType": "mate",
-        "Name": "J2",
-        "FeatureId": "MqpC9cImQXVa8IAhh",
+        "Name": "joint2",
+        "FeatureId": "joint2",
         "Parameters": [
           {
             "NodeId": "jjiyFb5mgRrLZfnT",
@@ -2567,8 +2567,8 @@
       },
       {
         "FeatureType": "mate",
-        "Name": "J3",
-        "FeatureId": "MrYHzqJuCnmqotBE5",
+        "Name": "joint3",
+        "FeatureId": "joint3",
         "Parameters": [
           {
             "NodeId": "hcNVXjmm83vfOZx0",
@@ -2730,8 +2730,8 @@
       },
       {
         "FeatureType": "mate",
-        "Name": "J4",
-        "FeatureId": "MOY9UdBCfn1naYsml",
+        "Name": "joint4",
+        "FeatureId": "joint4",
         "Parameters": [
           {
             "NodeId": "/xXsZ383cOZq5wTm",
@@ -2893,8 +2893,8 @@
       },
       {
         "FeatureType": "mate",
-        "Name": "J5",
-        "FeatureId": "MdGT0+xftRKCp9q9h",
+        "Name": "joint5",
+        "FeatureId": "joint5",
         "Parameters": [
           {
             "NodeId": "K8sZPlYkKFylOsKe",
@@ -3056,8 +3056,8 @@
       },
       {
         "FeatureType": "mate",
-        "Name": "Fastened 1",
-        "FeatureId": "Mbhy2YJxTRMD9xVQe",
+        "Name": "fixed1",
+        "FeatureId": "fixed1",
         "Parameters": [
           {
             "NodeId": "ApFL2Y05Wfd0yzXQ",
@@ -3219,8 +3219,8 @@
       },
       {
         "FeatureType": "mate",
-        "Name": "Fastened 2",
-        "FeatureId": "Ma51WkOgz+7GxeB4T",
+        "Name": "fixed2",
+        "FeatureId": "fixed2",
         "Parameters": [
           {
             "NodeId": "B1jUs5WdDnqz+Z9X",
@@ -3382,8 +3382,8 @@
       },
       {
         "FeatureType": "mate",
-        "Name": "Fastened 3",
-        "FeatureId": "Mz5RYMxTIS0uQY3Fu",
+        "Name": "fixed3",
+        "FeatureId": "fixed3",
         "Parameters": [
           {
             "NodeId": "lk/KbRBoo587Mm3X",
@@ -3545,8 +3545,8 @@
       },
       {
         "FeatureType": "mate",
-        "Name": "Fastened 4",
-        "FeatureId": "Miq1lslwTNDYGqG5b",
+        "Name": "fixed4",
+        "FeatureId": "fixed4",
         "Parameters": [
           {
             "NodeId": "Tdk3/DHBCTPBBNoB",
@@ -3708,8 +3708,8 @@
       },
       {
         "FeatureType": "mate",
-        "Name": "Fastened 5",
-        "FeatureId": "M9WHwFa+HfE4QVDSZ",
+        "Name": "fixed5",
+        "FeatureId": "fixed5",
         "Parameters": [
           {
             "NodeId": "+cFZrYNScDW7MPSK",
