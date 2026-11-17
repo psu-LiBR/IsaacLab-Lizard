@@ -1,0 +1,6 @@
+# The root .gitignore (from upstream Isaac Lab) ignores all USD files, because upstream
+# hosts its assets on Nucleus. Our lab's robot assets live in this folder, so track them here.
+!*.usd
+!*.usda
+!*.usdc
+!*.usdz
