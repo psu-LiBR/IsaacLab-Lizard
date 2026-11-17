@@ -21,6 +21,11 @@ and the ``meshes/*.gltf`` filenames. A ``rename_map.json`` recording the old and
 new names is written next to each ``robot.usda``; ``--undo`` uses it to restore
 the original Onshape names exactly.
 
+Onshape also publishes the servo parts without mass properties (negative mass, zero
+inertia). Any servo link whose mass is not set gets ``--servo-mass`` (default 57.2 g,
+the XL430-W250-T), with the center of mass and inertia computed from its mesh assuming
+uniform density. ``--undo`` only restores names; the mass fix is kept.
+
 Usage::
 
     python LizardFiles/rename_bladesnake_parts.py              # all assemblies in LizardFiles/BladeSnake
@@ -32,14 +37,19 @@ Usage::
 from __future__ import annotations
 
 import argparse
+import base64
 import json
+import math
 import re
+import struct
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 DEFAULT_ROOT = Path(__file__).resolve().parent / "BladeSnake"
 MAP_FILE = "rename_map.json"
+DEFAULT_SERVO_MASS_G = 57.2  # Dynamixel XL430-W250-T
+UNSET_MASS_KG = 1e-6  # masses at or below this are treated as "not set"
 
 # Display-name hints used to identify the head end of the chain and the servo bodies.
 FRONT_HINT = re.compile(r"front|head", re.IGNORECASE)
@@ -340,6 +350,211 @@ def undo_assembly(folder: Path, dry_run: bool) -> None:
     map_path.unlink()
 
 
+# ----------------------------------------------------------------------------- servo mass properties
+
+Vec3 = tuple[float, float, float]
+Mat3 = list[list[float]]
+
+
+def load_gltf_triangles(path: Path) -> list[tuple[Vec3, Vec3, Vec3]]:
+    """Read the triangles of an Onshape-exported glTF (embedded buffer, no node transforms)."""
+    gltf = json.loads(read_text(path))
+    if any(key in node for node in gltf["nodes"] for key in ("matrix", "translation", "rotation", "scale")):
+        raise ValueError(f"{path.name}: node transforms are not supported")
+    buffer = base64.b64decode(gltf["buffers"][0]["uri"].split(",", 1)[1])
+
+    def accessor(index: int) -> tuple:
+        acc = gltf["accessors"][index]
+        view = gltf["bufferViews"][acc["bufferView"]]
+        count = {"SCALAR": 1, "VEC3": 3}[acc["type"]] * acc["count"]
+        fmt = {5121: "B", 5123: "H", 5125: "I", 5126: "f"}[acc["componentType"]]
+        return struct.unpack_from(f"<{count}{fmt}", buffer, view.get("byteOffset", 0) + acc.get("byteOffset", 0))
+
+    triangles = []
+    for mesh in gltf["meshes"]:
+        for prim in mesh["primitives"]:
+            if prim.get("mode", 4) != 4:
+                raise ValueError(f"{path.name}: only triangle meshes are supported")
+            flat = accessor(prim["attributes"]["POSITION"])
+            points = [flat[i : i + 3] for i in range(0, len(flat), 3)]
+            indices = accessor(prim["indices"]) if "indices" in prim else range(len(points))
+            triangles += [tuple(points[indices[i + k]] for k in range(3)) for i in range(0, len(indices), 3)]
+    return triangles
+
+
+def is_closed_mesh(triangles: list[tuple[Vec3, Vec3, Vec3]]) -> bool:
+    """True if every edge (welded by position) is shared by exactly two triangles."""
+    edges: Counter = Counter()
+    for tri in triangles:
+        keys = [tuple(round(c, 7) for c in v) for v in tri]
+        for i in range(3):
+            edges[frozenset((keys[i], keys[(i + 1) % 3]))] += 1
+    return all(count == 2 for count in edges.values())
+
+
+def solid_mass_properties(triangles: list[tuple[Vec3, Vec3, Vec3]], mass: float) -> tuple[Vec3, Mat3]:
+    """Center of mass and inertia tensor (about the COM) of a closed mesh with uniform density.
+
+    Uses D. Eberly, "Polyhedral Mass Properties (Revisited)".
+    """
+    s = [0.0] * 10
+    for (x0, y0, z0), (x1, y1, z1), (x2, y2, z2) in triangles:
+        a1, b1, c1, a2, b2, c2 = x1 - x0, y1 - y0, z1 - z0, x2 - x0, y2 - y0, z2 - z0
+        d0, d1, d2 = b1 * c2 - b2 * c1, a2 * c1 - a1 * c2, a1 * b2 - a2 * b1
+
+        def sub(w0, w1, w2):
+            t0, t1 = w0 + w1, w0 * w0
+            f1 = t0 + w2
+            t2 = t1 + w1 * t0
+            f2 = t2 + w2 * f1
+            f3 = w0 * t1 + w1 * t2 + w2 * f2
+            return f1, f2, f3, f2 + w0 * (f1 + w0), f2 + w1 * (f1 + w1), f2 + w2 * (f1 + w2)
+
+        f1x, f2x, f3x, g0x, g1x, g2x = sub(x0, x1, x2)
+        _, f2y, f3y, g0y, g1y, g2y = sub(y0, y1, y2)
+        _, f2z, f3z, g0z, g1z, g2z = sub(z0, z1, z2)
+        s[0] += d0 * f1x
+        s[1] += d0 * f2x
+        s[2] += d1 * f2y
+        s[3] += d2 * f2z
+        s[4] += d0 * f3x
+        s[5] += d1 * f3y
+        s[6] += d2 * f3z
+        s[7] += d0 * (y0 * g0x + y1 * g1x + y2 * g2x)
+        s[8] += d1 * (z0 * g0y + z1 * g1y + z2 * g2y)
+        s[9] += d2 * (x0 * g0z + x1 * g1z + x2 * g2z)
+    s = [v * k for v, k in zip(s, [1 / 6] + [1 / 24] * 3 + [1 / 60] * 3 + [1 / 120] * 3)]
+    volume = s[0]
+    if volume <= 0:
+        raise ValueError("mesh has non-positive volume (inverted or open)")
+    cx, cy, cz = s[1] / volume, s[2] / volume, s[3] / volume
+    rho = mass / volume
+    ixx = rho * (s[5] + s[6]) - mass * (cy * cy + cz * cz)
+    iyy = rho * (s[4] + s[6]) - mass * (cz * cz + cx * cx)
+    izz = rho * (s[4] + s[5]) - mass * (cx * cx + cy * cy)
+    ixy = -(rho * s[7] - mass * cx * cy)
+    iyz = -(rho * s[8] - mass * cy * cz)
+    ixz = -(rho * s[9] - mass * cz * cx)
+    return (cx, cy, cz), [[ixx, ixy, ixz], [ixy, iyy, iyz], [ixz, iyz, izz]]
+
+
+def box_mass_properties(triangles: list[tuple[Vec3, Vec3, Vec3]], mass: float) -> tuple[Vec3, Mat3]:
+    """Fallback for open meshes: a solid box filling the mesh's bounding box."""
+    lo = [min(v[i] for t in triangles for v in t) for i in range(3)]
+    hi = [max(v[i] for t in triangles for v in t) for i in range(3)]
+    dx, dy, dz = (hi[i] - lo[i] for i in range(3))
+    com = tuple((hi[i] + lo[i]) / 2 for i in range(3))
+    k = mass / 12
+    return com, [[k * (dy * dy + dz * dz), 0, 0], [0, k * (dx * dx + dz * dz), 0], [0, 0, k * (dx * dx + dy * dy)]]
+
+
+def principal_axes(inertia: Mat3) -> tuple[Vec3, tuple[float, float, float, float]]:
+    """Diagonalize a symmetric 3x3 tensor; returns (diagonal inertia, quaternion (w, x, y, z)) as USD expects."""
+    a = [row[:] for row in inertia]
+    v = [[1.0 if i == j else 0.0 for j in range(3)] for i in range(3)]
+    for _ in range(50):  # cyclic Jacobi rotations
+        off = max(abs(a[0][1]), abs(a[0][2]), abs(a[1][2]))
+        if off <= 1e-30 + 1e-15 * max(abs(a[i][i]) for i in range(3)):
+            break
+        for p, q in ((0, 1), (0, 2), (1, 2)):
+            if a[p][q] == 0:
+                continue
+            theta = (a[q][q] - a[p][p]) / (2 * a[p][q])
+            t = math.copysign(1.0, theta) / (abs(theta) + math.sqrt(theta * theta + 1))
+            c = 1 / math.sqrt(t * t + 1)
+            s = t * c
+            for k in range(3):  # A <- A J, V <- V J
+                akp, akq = a[k][p], a[k][q]
+                a[k][p], a[k][q] = c * akp - s * akq, s * akp + c * akq
+                vkp, vkq = v[k][p], v[k][q]
+                v[k][p], v[k][q] = c * vkp - s * vkq, s * vkp + c * vkq
+            for k in range(3):  # A <- J^T A
+                apk, aqk = a[p][k], a[q][k]
+                a[p][k], a[q][k] = c * apk - s * aqk, s * apk + c * aqk
+    det = (
+        v[0][0] * (v[1][1] * v[2][2] - v[1][2] * v[2][1])
+        - v[0][1] * (v[1][0] * v[2][2] - v[1][2] * v[2][0])
+        + v[0][2] * (v[1][0] * v[2][1] - v[1][1] * v[2][0])
+    )
+    if det < 0:  # make it a proper rotation
+        for k in range(3):
+            v[k][2] = -v[k][2]
+    # Rotation matrix (columns = principal axes) to quaternion.
+    m = v
+    trace = m[0][0] + m[1][1] + m[2][2]
+    if trace > 0:
+        s = 2 * math.sqrt(trace + 1)
+        quat = (s / 4, (m[2][1] - m[1][2]) / s, (m[0][2] - m[2][0]) / s, (m[1][0] - m[0][1]) / s)
+    elif m[0][0] > m[1][1] and m[0][0] > m[2][2]:
+        s = 2 * math.sqrt(1 + m[0][0] - m[1][1] - m[2][2])
+        quat = ((m[2][1] - m[1][2]) / s, s / 4, (m[0][1] + m[1][0]) / s, (m[0][2] + m[2][0]) / s)
+    elif m[1][1] > m[2][2]:
+        s = 2 * math.sqrt(1 + m[1][1] - m[0][0] - m[2][2])
+        quat = ((m[0][2] - m[2][0]) / s, (m[0][1] + m[1][0]) / s, s / 4, (m[1][2] + m[2][1]) / s)
+    else:
+        s = 2 * math.sqrt(1 + m[2][2] - m[0][0] - m[1][1])
+        quat = ((m[1][0] - m[0][1]) / s, (m[0][2] + m[2][0]) / s, (m[1][2] + m[2][1]) / s, s / 4)
+    if quat[0] < 0:
+        quat = tuple(-q for q in quat)
+    return (a[0][0], a[1][1], a[2][2]), quat
+
+
+def usd_tuple(values) -> str:
+    return "(" + ", ".join(f"{v:.9g}" for v in values) + ")"
+
+
+def set_link_attribute(header: str, decl: str, value: str) -> str:
+    """Replace (or add) ``<decl> = <value>`` in the attribute section of a link prim."""
+    pattern = re.compile(rf"^(?P<indent>[ \t]*){re.escape(decl)} = [^\r\n]*", re.MULTILINE)
+    if pattern.search(header):
+        return pattern.sub(lambda m: f"{m.group('indent')}{decl} = {value}", header, count=1)
+    match = re.search(r"\{(?P<nl>\r?\n)(?P<indent>[ \t]*)", header)
+    pos = match.end("nl")
+    return header[:pos] + f"{match.group('indent')}{decl} = {value}{match.group('nl')}" + header[pos:]
+
+
+def fix_servo_masses(folder: Path, servo_mass_kg: float, dry_run: bool) -> None:
+    """Give servo links with unset mass a real mass, center of mass and inertia."""
+    usda_path = folder / "robot.usda"
+    usda = read_text(usda_path)
+    links, _ = parse_usda(usda)
+    changed = False
+    for prim, display in sorted(links.items()):
+        if not (SERVO_HINT.search(display) or SERVO_HINT.search(prim)):
+            continue
+        start = re.search(rf'def Xform "{re.escape(prim)}"\s*\(', usda).start()
+        end = usda.find('def Xform "visuals"', start)
+        header = usda[start:end]
+        mass_match = re.search(r"float physics:mass = (?P<mass>[^\s]+)", header)
+        if mass_match and float(mass_match.group("mass")) > UNSET_MASS_KG:
+            continue
+
+        mesh_ref = re.search(r"references = \[@(?P<path>[^@]+\.gltf)@\]", usda[end:])
+        mesh_path = folder / mesh_ref.group("path")
+        triangles = load_gltf_triangles(mesh_path)
+        if is_closed_mesh(triangles):
+            com, inertia = solid_mass_properties(triangles, servo_mass_kg)
+            method = "mesh, uniform density"
+        else:
+            com, inertia = box_mass_properties(triangles, servo_mass_kg)
+            method = "bounding box (mesh is not closed)"
+        diagonal, quat = principal_axes(inertia)
+        print(
+            f"  [mass] {prim}: {servo_mass_kg * 1000:g} g ({method}), "
+            f"com={usd_tuple(com)}, inertia={usd_tuple(diagonal)}"
+        )
+        if dry_run:
+            continue
+        header = set_link_attribute(header, "quatf physics:principalAxes", usd_tuple(quat))
+        header = set_link_attribute(header, "float3 physics:diagonalInertia", usd_tuple(diagonal))
+        header = set_link_attribute(header, "float physics:mass", f"{servo_mass_kg:.9g}")
+        header = set_link_attribute(header, "point3f physics:centerOfMass", usd_tuple(com))
+        usda = usda[:start] + header + usda[end:]
+        changed = True
+    if changed:
+        write_text(usda_path, usda)
+
+
 # ----------------------------------------------------------------------------- CLI
 
 
@@ -364,6 +579,13 @@ def main() -> int:
     )
     parser.add_argument("--dry-run", action="store_true", help="Print what would change without touching files.")
     parser.add_argument("--undo", action="store_true", help=f"Restore the original Onshape names using {MAP_FILE}.")
+    parser.add_argument(
+        "--servo-mass",
+        type=float,
+        default=DEFAULT_SERVO_MASS_G,
+        help=f"Mass in grams given to servos whose mass is not set (default: {DEFAULT_SERVO_MASS_G}).",
+    )
+    parser.add_argument("--skip-mass-fix", action="store_true", help="Do not touch servo mass properties.")
     args = parser.parse_args()
 
     folders = find_assemblies(args.paths)
@@ -374,7 +596,12 @@ def main() -> int:
     failures = 0
     for folder in folders:
         try:
-            (undo_assembly if args.undo else rename_assembly)(folder, args.dry_run)
+            if args.undo:
+                undo_assembly(folder, args.dry_run)
+                continue
+            rename_assembly(folder, args.dry_run)
+            if not args.skip_mass_fix:
+                fix_servo_masses(folder, args.servo_mass / 1000, args.dry_run)
         except Exception as err:  # keep going so one bad export does not block the others
             failures += 1
             print(f"[error] {folder.name}: {err}")
