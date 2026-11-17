@@ -1,0 +1,3892 @@
+{
+  "Href": "/documents/95aae2326e64668874170188/w/32c53e4c47803e83eb8e4160/e/23be748229a0504457778dde?configuration=",
+  "Did": "95aae2326e64668874170188",
+  "Wvm": "w",
+  "Wvmid": "32c53e4c47803e83eb8e4160",
+  "Eid": "23be748229a0504457778dde",
+  "Configuration": "",
+  "Joints": [
+    {
+      "Name": "J1",
+      "Type": "REVOLUTE",
+      "Id": "MMisxoa/F22ItJuN6",
+      "Enabled": true,
+      "Friction": "",
+      "Stiffness": "10",
+      "Damping": "0.35",
+      "MinAngle": "-80 deg",
+      "MaxAngle": "80 deg",
+      "Driven": true,
+      "MinVelocity": "",
+      "MaxVelocity": "5.97",
+      "MaxTorque": "1.5",
+      "Feature": {
+        "FeatureType": "mate",
+        "Name": "J1",
+        "FeatureId": "MMisxoa/F22ItJuN6",
+        "Parameters": [
+          {
+            "NodeId": "cuE99nsk9pCe6Hez",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "ZiSMFoUWlHZz4KPu",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "jxh7TY9dmrJKMigN",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "KpGh79zG7sTcI1YM",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "dZy7m1cNe71+tyiJ",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "mP3If6YuAewvXS38",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "sKhBE7SYliSrI4on",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "kvD31sb+hptjb5FU",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "gU8bUroh1+4j2W0Z",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "j+hOdmQ4x93cgMI/",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "P1ACoH9eth6hLIR0",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "QN7dsaXvKaa1WKat",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "FJ6V45IPG84ehq/8",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "kxx/+VGbPMv5EoFs",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "ulAieNhEz34muW5r",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Ei6/OfR3V3773xha",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "j/TdTh4iivvTHRKt",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Q1HSa9Dip947pugy",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "F3IdrZgM1f3F3bUl",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Hu3hyJetk5GO4/Ws",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "Ml30XvQm+bFHX8eZ",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "zG5EIRlIyts5IsDz",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "1bJ9oxsVtjZkFfBx",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "NVijqHd4dNhSy5lg",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "vg0s70+pnDCdgAKi",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "gOWPWUeLjGDgfczk",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      }
+    },
+    {
+      "Name": "J2",
+      "Type": "REVOLUTE",
+      "Id": "MqpC9cImQXVa8IAhh",
+      "Enabled": true,
+      "Friction": "",
+      "Stiffness": "10",
+      "Damping": "0.35",
+      "MinAngle": "-80 deg",
+      "MaxAngle": "80 deg",
+      "Driven": true,
+      "MinVelocity": "",
+      "MaxVelocity": "5.97",
+      "MaxTorque": "1.5",
+      "Feature": {
+        "FeatureType": "mate",
+        "Name": "J2",
+        "FeatureId": "MqpC9cImQXVa8IAhh",
+        "Parameters": [
+          {
+            "NodeId": "jjiyFb5mgRrLZfnT",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "QhXVXPGpqHtVJnjh",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "sLusolzfYUNEG0Vs",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "mXxYoVm/4UTV/SLY",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "YtbOCvCqkkRLyA3y",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "w9Nk1zbMsG5Wf7vR",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "60qGelcHD48vzNXu",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "Pr5WVc2JZSoz6Pfz",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "/8/ikXM6yoITMKm7",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "a6tXFbFPdZT6/4MI",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "ZDR9IJh6f7p5tHE6",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "3i3NNkOqPWwfYsfo",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "OZv+1OAT0QI/sI+T",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "TkX4uMzzql/v5kzX",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "P/BOhXapCS8yqOkV",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "oFMbJs+RN19TxQZK",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "QqpCHdSttoOgPmD5",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "L9PCsv9dGti+Vr46",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "AfXPBLcF5UGLQu0e",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "fWRClPw1lb4LVwuU",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "BJ4Rl8jWcCxcddI+",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "RiKc4HJPUzQPykw+",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "eUE7q+dv01ZYALql",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "G63K4E3mTRHaCUTR",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "9Is+C/KPG8+ECUGh",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "pUfL2Vy/txaTst2J",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      }
+    },
+    {
+      "Name": "J3",
+      "Type": "REVOLUTE",
+      "Id": "MrYHzqJuCnmqotBE5",
+      "Enabled": true,
+      "Friction": "",
+      "Stiffness": "10",
+      "Damping": "0.35",
+      "MinAngle": "-80 deg",
+      "MaxAngle": "80 deg",
+      "Driven": true,
+      "MinVelocity": "",
+      "MaxVelocity": "5.97",
+      "MaxTorque": "1.5",
+      "Feature": {
+        "FeatureType": "mate",
+        "Name": "J3",
+        "FeatureId": "MrYHzqJuCnmqotBE5",
+        "Parameters": [
+          {
+            "NodeId": "hcNVXjmm83vfOZx0",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "TKtlpc4lTJJwLx9h",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "6v8PNltmVoogPVsP",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "pNJjLGuBHwARP8iO",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "3+U8OdLrmPpgyn7w",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Eo50dZaCLBEGMVJZ",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "FVibNvX/RjWlvsAk",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "IJdfvHwbRviA0xDZ",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Y4Uj/ddSAxxq5iYI",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "2jXU2soU+zRY4ZNv",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "2lSL7e9XfmWaXrnR",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "IT8EYsVXquTW2hsn",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "NZDHn/bxO447yc86",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "5qs24YdDyKopox/Z",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "JpxDbWDvUOSHXyzN",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "FJBilS7xMyImDNFP",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "dHv7e6bVXd2Nd7Ax",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "o38r4H5Sqw1KMJao",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "KS2fw6Sz0aKR4m5/",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "0zOi1GS0n7AWUrXq",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "aoyfONoayRezSVBF",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "oqjlAYZr7cXw0X9P",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "SLv4/1Td+pnX86bM",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "wIGkeYwZpCmw9rQ8",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "y917iN9rI7me9zO/",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "KpHfBG/KBDWSoVit",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      }
+    },
+    {
+      "Name": "J4",
+      "Type": "REVOLUTE",
+      "Id": "MOY9UdBCfn1naYsml",
+      "Enabled": true,
+      "Friction": "",
+      "Stiffness": "10",
+      "Damping": "0.35",
+      "MinAngle": "-80 deg",
+      "MaxAngle": "80 deg",
+      "Driven": true,
+      "MinVelocity": "",
+      "MaxVelocity": "5.97",
+      "MaxTorque": "1.5",
+      "Feature": {
+        "FeatureType": "mate",
+        "Name": "J4",
+        "FeatureId": "MOY9UdBCfn1naYsml",
+        "Parameters": [
+          {
+            "NodeId": "/xXsZ383cOZq5wTm",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "Nez05W5kq0iXN54O",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "azD66mF09RUeJ+zi",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "uiAh/gt3KqbKl6qF",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "trk1ruOS474hmh1S",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "7JHWkeyBjCkYQbLl",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Ryh02jizOjuOQE9a",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "ONkBgWsg7xQc28g0",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "oPfycDi3JLzNI0n5",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "3AkqjxOoIP9K7w3E",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Kxkgjr+aU/dwCfRI",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "IgcbhT1garhqtv4a",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Co7bG3PixrrnWXB9",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "gvVBhq/vtEPoo8J2",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "zr9JTwyY7XFA01rQ",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "2DzAAAbdyUaXbE+o",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "zzlK31VQEYPVWscQ",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "giXqqCPUe1XFKxE6",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "rPEI08fRgE/Uai4n",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "1l3oe/RoU6Zpferv",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "i4fhOlFvasgm6leC",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "iueW+2qc0uD0PKGd",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Pzso6Dn9V2EPqgq3",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "+Zoy7arIoBme6Ere",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "md/o+K+F6u3zDbjU",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "U1mbsh4Wa+sd7HoC",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      }
+    },
+    {
+      "Name": "J5",
+      "Type": "REVOLUTE",
+      "Id": "MdGT0+xftRKCp9q9h",
+      "Enabled": true,
+      "Friction": "",
+      "Stiffness": "10",
+      "Damping": "0.35",
+      "MinAngle": "-80 deg",
+      "MaxAngle": "80 deg",
+      "Driven": true,
+      "MinVelocity": "",
+      "MaxVelocity": "5.97",
+      "MaxTorque": "1.5",
+      "Feature": {
+        "FeatureType": "mate",
+        "Name": "J5",
+        "FeatureId": "MdGT0+xftRKCp9q9h",
+        "Parameters": [
+          {
+            "NodeId": "K8sZPlYkKFylOsKe",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "U3mc9fjj/NSCZjYD",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "jTgosLWCLelKAZph",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "GJW8ifNqMCa6R003",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "XLtIISggkfHdSrrc",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "yTgOmhdw8XMilRGc",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "FFi+jLKNjXH5PqSk",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "osw33BoNmZNF52F0",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "UEP5cbTX5aRKBFcJ",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "VwG2Ps6vGoUf5DG+",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "W1z/vISEw20GXbR9",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Oi1mIg10x0I9IWlN",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "0SeiEeh1+9rZTZF7",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "VPXlwOW+BlElmyAo",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "VvWLNwkWLtsUnnUl",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "4mt1B1rjmkhtmzT+",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "pfCNXOrUrZJyDJ0s",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "cLI6+nTgNNp9S0YW",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "zobHzqeIJ88aH3sE",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "SQmYaMjdz7XBH/Ld",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "r46F5N6/UVmFlQTn",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "ZvcJFi1vKwiQZ6CI",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "lqZ+HgV/G7b1v/9P",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "0vflz+L4nUNiFOXm",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "p/FRDHnEd3YRZXj0",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "ef7aB17KGOK9/zXq",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      }
+    }
+  ],
+  "RestPositions": [
+    {
+      "Id": "ONrEZHELv59EuY8u",
+      "Name": "ZeroPose",
+      "Enabled": false
+    },
+    {
+      "Id": "—",
+      "Name": "— None —",
+      "Enabled": true
+    }
+  ],
+  "FixedInstances": [
+    {
+      "Id": "MjBLMIiEhsJtWdrHk",
+      "Name": "SnakeFront \u003c3\u003e",
+      "FastenedToGround": false
+    }
+  ],
+  "ReferencePoints": [],
+  "Overrides": {
+    "JointEnabled": {},
+    "JointFriction": {},
+    "JointStiffness": {
+      "MMisxoa/F22ItJuN6": 10,
+      "MOY9UdBCfn1naYsml": 10,
+      "MdGT0+xftRKCp9q9h": 10,
+      "MqpC9cImQXVa8IAhh": 10,
+      "MrYHzqJuCnmqotBE5": 10
+    },
+    "JointDamping": {
+      "MMisxoa/F22ItJuN6": 0.35,
+      "MOY9UdBCfn1naYsml": 0.35,
+      "MdGT0+xftRKCp9q9h": 0.35,
+      "MqpC9cImQXVa8IAhh": 0.35,
+      "MrYHzqJuCnmqotBE5": 0.35
+    },
+    "JointDriven": {},
+    "JointMinVelocity": {},
+    "JointMaxVelocity": {
+      "MMisxoa/F22ItJuN6": 5.97,
+      "MOY9UdBCfn1naYsml": 5.97,
+      "MdGT0+xftRKCp9q9h": 5.97,
+      "MqpC9cImQXVa8IAhh": 5.97,
+      "MrYHzqJuCnmqotBE5": 5.97
+    },
+    "JointMaxTorque": {
+      "MMisxoa/F22ItJuN6": 1.5,
+      "MOY9UdBCfn1naYsml": 1.5,
+      "MdGT0+xftRKCp9q9h": 1.5,
+      "MqpC9cImQXVa8IAhh": 1.5,
+      "MrYHzqJuCnmqotBE5": 1.5
+    },
+    "RestPositionSelected": "",
+    "FixedInstanceFastenToGround": {
+      "MjBLMIiEhsJtWdrHk": false
+    },
+    "ReferencePointEnabled": {}
+  },
+  "BTAssemblyDefinitionInfo": {
+    "RootAssembly": {
+      "Occurrences": [
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            -5.551115123125783e-16,
+            0.999999999999978,
+            -3.724956803870679e-17,
+            0.061189040151825566,
+            0.9999999999999776,
+            -6.106226635438361e-16,
+            -7.115055850869043e-18,
+            0.04383941934028442,
+            -7.115053585835065e-18,
+            -3.7249567723474994e-17,
+            -0.9999999999999997,
+            -0.02128412605907505,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "M0E4EUnrBirM7Gx83"
+          ]
+        },
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            0.9999999999999771,
+            2.220446049250313e-16,
+            3.7249568038706566e-17,
+            0.03414572490512492,
+            -2.220446049250313e-16,
+            0.9999999999999771,
+            7.115055850869149e-18,
+            0.03949519021952339,
+            -3.724956772347507e-17,
+            -7.11505358583505e-18,
+            0.9999999999999997,
+            -0.008846969652438611,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "M5xauL3lJW4uSME+V"
+          ]
+        },
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            1,
+            1.665334536937792e-16,
+            4.595325498045734e-17,
+            -0.23685780325367936,
+            -1.665334536937792e-16,
+            1,
+            1.2056651750449936e-17,
+            0.03949519021953178,
+            -4.595325498045734e-17,
+            -1.2056651750449942e-17,
+            1,
+            -0.006128177415404331,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "MVGPnbxdoVRLzajDB"
+          ]
+        },
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            4.996003610813204e-16,
+            0.9999999999999998,
+            -4.595325498045733e-17,
+            -0.2098144880069781,
+            0.9999999999999998,
+            -1.6653345369377348e-16,
+            -1.205665175044993e-17,
+            0.04383941934029292,
+            -1.2056651750449947e-17,
+            -4.5953254980457326e-17,
+            -0.9999999999999996,
+            -0.01856533382204077,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "MVoACEE6RItOBaaOM"
+          ]
+        },
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            -2.7755575615628914e-16,
+            0.9999999999999859,
+            -3.6087586370625117e-17,
+            0.19669080423122703,
+            0.9999999999999856,
+            -4.996003610813204e-16,
+            -2.6257702175691324e-17,
+            0.0438394193402844,
+            -2.6257703708373383e-17,
+            -3.608758629097653e-17,
+            -0.9999999999999993,
+            -0.022643522177592187,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "MY6+8coFRhVRStLUa"
+          ]
+        },
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            1.0000000000000024,
+            -5.551115123125783e-17,
+            1.1937275781463283e-16,
+            -0.4258595673330829,
+            -2.220446049250313e-16,
+            1.0000000000000009,
+            8.593174675026e-17,
+            0.039495190219531774,
+            -1.5427047485597476e-16,
+            -5.39681657353759e-19,
+            1.0000000000000007,
+            -0.0299187812968872,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "MfgOCFQSaiTe+sQ0m"
+          ]
+        },
+        {
+          "Fixed": true,
+          "Hidden": false,
+          "Transform": [
+            1,
+            0,
+            0,
+            0.24252425306392913,
+            0,
+            1,
+            0,
+            0.03949519021952331,
+            0,
+            0,
+            1,
+            -0.03571576188947288,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "MjBLMIiEhsJtWdrHk"
+          ]
+        },
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            1,
+            6.128431095930864e-14,
+            4.085879255801464e-17,
+            -0.10135603917427599,
+            -6.128431095930864e-14,
+            1,
+            1.2923437881508077e-17,
+            0.039495190219525224,
+            -4.085879255801385e-17,
+            -1.292343788151058e-17,
+            1,
+            -0.007487573533921471,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "MjlyI0Zu+ZG5ur4Wt"
+          ]
+        },
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            6.139533326177116e-14,
+            1,
+            -4.085879255801464e-17,
+            -0.07431272392757449,
+            1,
+            -6.128431095930864e-14,
+            -1.292343788150807e-17,
+            0.043839419340284715,
+            -1.2923437881510578e-17,
+            -4.085879255801385e-17,
+            -1,
+            -0.019924729940557915,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "MqxTgyPpzd5rzy25E"
+          ]
+        },
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            1.6653345369377348e-16,
+            1.0000000000000009,
+            5.966221130767657e-17,
+            -0.3453162520863815,
+            1.0000000000000004,
+            -1.6653345369377348e-16,
+            -2.90037033549891e-17,
+            0.04383941934029293,
+            -2.9003703354989163e-17,
+            5.966221130767667e-17,
+            -1,
+            -0.017205937703523633,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "Mv7hdUadfiLGhLSRD"
+          ]
+        },
+        {
+          "Fixed": false,
+          "Hidden": false,
+          "Transform": [
+            0.9999999999999859,
+            -2.7755575615628914e-16,
+            3.608758637062515e-17,
+            0.16964748898452617,
+            -4.996003610813204e-16,
+            0.9999999999999856,
+            2.6257702175691317e-17,
+            0.039495190219523336,
+            -3.608758629097651e-17,
+            -2.6257703708373383e-17,
+            0.9999999999999993,
+            -0.010206365770955753,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Path": [
+            "Mx9xu8nwoZ1blNc64"
+          ]
+        }
+      ],
+      "Patterns": [],
+      "Features": [
+        {
+          "Id": "MMisxoa/F22ItJuN6",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "J1",
+            "MateType": "REVOLUTE",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "MY6+8coFRhVRStLUa"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761155,
+                    0.00145844883270212,
+                    0.00897223971188069
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "ZAxis": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "MjBLMIiEhsJtWdrHk"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.044375,
+                    -8.437929295971076e-19,
+                    0.004100000000000007
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "ZAxis": [
+                    -0,
+                    -0,
+                    -1
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": 1.3962634,
+              "LimitAxialZMin": -1.3962634,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        },
+        {
+          "Id": "MqpC9cImQXVa8IAhh",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "J2",
+            "MateType": "REVOLUTE",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "Mx9xu8nwoZ1blNc64"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.10700000000000001,
+                    -2.5129921593272407e-17,
+                    -0.020049999999999995
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "ZAxis": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "M0E4EUnrBirM7Gx83"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761155,
+                    0.00145844883270212,
+                    0.00897223971188069
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "ZAxis": [
+                    -0,
+                    -0,
+                    -1
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": 1.3962634,
+              "LimitAxialZMin": -1.3962634,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        },
+        {
+          "Id": "MrYHzqJuCnmqotBE5",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "J3",
+            "MateType": "REVOLUTE",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "MqxTgyPpzd5rzy25E"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761155,
+                    0.00145844883270212,
+                    0.00897223971188069
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "ZAxis": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "M5xauL3lJW4uSME+V"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.10700000000000001,
+                    -2.5129921593272407e-17,
+                    -0.020049999999999995
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "ZAxis": [
+                    -0,
+                    -0,
+                    -1
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": 1.3962634,
+              "LimitAxialZMin": -1.3962634,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        },
+        {
+          "Id": "MOY9UdBCfn1naYsml",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "J4",
+            "MateType": "REVOLUTE",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "MjlyI0Zu+ZG5ur4Wt"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.10700000000000001,
+                    -2.5129921593272407e-17,
+                    -0.020049999999999995
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "ZAxis": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "MVoACEE6RItOBaaOM"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761155,
+                    0.00145844883270212,
+                    0.00897223971188069
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "ZAxis": [
+                    -0,
+                    -0,
+                    -1
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": 1.3962634,
+              "LimitAxialZMin": -1.3962634,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        },
+        {
+          "Id": "MdGT0+xftRKCp9q9h",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "J5",
+            "MateType": "REVOLUTE",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "MVGPnbxdoVRLzajDB"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.10700000000000001,
+                    -2.5129921593272407e-17,
+                    -0.020049999999999995
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "ZAxis": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "Mv7hdUadfiLGhLSRD"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761155,
+                    0.00145844883270212,
+                    0.00897223971188069
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "ZAxis": [
+                    -0,
+                    -0,
+                    -1
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": 1.3962634,
+              "LimitAxialZMin": -1.3962634,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        },
+        {
+          "Id": "Mbhy2YJxTRMD9xVQe",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "Fastened 1",
+            "MateType": "FASTENED",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "Mx9xu8nwoZ1blNc64"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.007,
+                    -1.579459542457477e-18,
+                    -7.311899874753746e-19
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "ZAxis": [
+                    1,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "MY6+8coFRhVRStLUa"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761148,
+                    -0.03404331524670124,
+                    -0.012437156406636441
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "ZAxis": [
+                    -0,
+                    1,
+                    -0
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": null,
+              "LimitAxialZMin": null,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        },
+        {
+          "Id": "Ma51WkOgz+7GxeB4T",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "Fastened 2",
+            "MateType": "FASTENED",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "M5xauL3lJW4uSME+V"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.007,
+                    -1.579459542457477e-18,
+                    -7.311899874753746e-19
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "ZAxis": [
+                    1,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "M0E4EUnrBirM7Gx83"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761148,
+                    -0.03404331524670124,
+                    -0.012437156406636441
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "ZAxis": [
+                    -0,
+                    1,
+                    -0
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": null,
+              "LimitAxialZMin": null,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        },
+        {
+          "Id": "Mz5RYMxTIS0uQY3Fu",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "Fastened 3",
+            "MateType": "FASTENED",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "MjlyI0Zu+ZG5ur4Wt"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.007,
+                    -1.579459542457477e-18,
+                    -7.311899874753746e-19
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "ZAxis": [
+                    1,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "MqxTgyPpzd5rzy25E"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761148,
+                    -0.03404331524670124,
+                    -0.012437156406636441
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "ZAxis": [
+                    -0,
+                    1,
+                    -0
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": null,
+              "LimitAxialZMin": null,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        },
+        {
+          "Id": "Miq1lslwTNDYGqG5b",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "Fastened 4",
+            "MateType": "FASTENED",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "MVGPnbxdoVRLzajDB"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.007,
+                    -1.579459542457477e-18,
+                    -7.311899874753746e-19
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "ZAxis": [
+                    1,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "MVoACEE6RItOBaaOM"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761148,
+                    -0.03404331524670124,
+                    -0.012437156406636441
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "ZAxis": [
+                    -0,
+                    1,
+                    -0
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": null,
+              "LimitAxialZMin": null,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        },
+        {
+          "Id": "M9WHwFa+HfE4QVDSZ",
+          "Suppressed": false,
+          "FeatureType": "mate",
+          "FeatureData": {
+            "Name": "Fastened 5",
+            "MateType": "FASTENED",
+            "MateConnectorCS": null,
+            "Occurrence": null,
+            "Occurrences": null,
+            "MatedEntities": [
+              {
+                "MatedOccurrence": [
+                  "MfgOCFQSaiTe+sQ0m"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    0.04650000000000001,
+                    2.5491445793414482e-17,
+                    0.02515
+                  ],
+                  "XAxis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "YAxis": [
+                    -2.0230011381653722e-16,
+                    0,
+                    1
+                  ],
+                  "ZAxis": [
+                    1,
+                    0,
+                    2.0230011381653722e-16
+                  ]
+                }
+              },
+              {
+                "MatedOccurrence": [
+                  "Mv7hdUadfiLGhLSRD"
+                ],
+                "MatedCS": {
+                  "Origin": [
+                    -0.004344229120761148,
+                    -0.03404331524670124,
+                    -0.012437156406636441
+                  ],
+                  "XAxis": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "YAxis": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "ZAxis": [
+                    -0,
+                    1,
+                    -0
+                  ]
+                }
+              }
+            ],
+            "MateLimits": {
+              "LimitAxialZMax": null,
+              "LimitAxialZMin": null,
+              "LimitZMax": null,
+              "LimitZMin": null
+            }
+          }
+        }
+      ],
+      "Instances": [
+        {
+          "Type": "Part",
+          "Id": "MjBLMIiEhsJtWdrHk",
+          "IsStandardContent": false,
+          "Name": "SnakeFront \u003c3\u003e",
+          "Suppressed": false,
+          "PartId": "JHD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "95aae2326e64668874170188",
+          "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+          "DocumentVersion": "",
+          "ElementId": "de9919cd75b78551786f851b"
+        },
+        {
+          "Type": "Part",
+          "Id": "Mx9xu8nwoZ1blNc64",
+          "IsStandardContent": false,
+          "Name": "SnakeBody \u003c1\u003e",
+          "Suppressed": false,
+          "PartId": "JHD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "95aae2326e64668874170188",
+          "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+          "DocumentVersion": "",
+          "ElementId": "c91c14d9e1f4e9e0fee158b4"
+        },
+        {
+          "Type": "Part",
+          "Id": "MjlyI0Zu+ZG5ur4Wt",
+          "IsStandardContent": false,
+          "Name": "SnakeBody \u003c4\u003e",
+          "Suppressed": false,
+          "PartId": "JHD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "95aae2326e64668874170188",
+          "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+          "DocumentVersion": "",
+          "ElementId": "c91c14d9e1f4e9e0fee158b4"
+        },
+        {
+          "Type": "Part",
+          "Id": "MVGPnbxdoVRLzajDB",
+          "IsStandardContent": false,
+          "Name": "SnakeBody \u003c5\u003e",
+          "Suppressed": false,
+          "PartId": "JHD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "95aae2326e64668874170188",
+          "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+          "DocumentVersion": "",
+          "ElementId": "c91c14d9e1f4e9e0fee158b4"
+        },
+        {
+          "Type": "Part",
+          "Id": "M5xauL3lJW4uSME+V",
+          "IsStandardContent": false,
+          "Name": "SnakeBody \u003c6\u003e",
+          "Suppressed": false,
+          "PartId": "JHD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "95aae2326e64668874170188",
+          "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+          "DocumentVersion": "",
+          "ElementId": "c91c14d9e1f4e9e0fee158b4"
+        },
+        {
+          "Type": "Part",
+          "Id": "MfgOCFQSaiTe+sQ0m",
+          "IsStandardContent": false,
+          "Name": "SnakeTail \u003c2\u003e",
+          "Suppressed": false,
+          "PartId": "JHD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "95aae2326e64668874170188",
+          "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+          "DocumentVersion": "",
+          "ElementId": "33039fc8c0056b8a6b871501"
+        },
+        {
+          "Type": "Part",
+          "Id": "MY6+8coFRhVRStLUa",
+          "IsStandardContent": false,
+          "Name": "XL430-W250-T_1AxisServo \u003c1\u003e",
+          "Suppressed": false,
+          "PartId": "JFD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "aba5816b089d3e872fd1a2e7",
+          "DocumentMicroversion": "2fbca2a342bbe6231ee4101b",
+          "DocumentVersion": "59d0151853aac160895d2e83",
+          "ElementId": "d5bd7b839a96c40163f4ccc7"
+        },
+        {
+          "Type": "Part",
+          "Id": "MqxTgyPpzd5rzy25E",
+          "IsStandardContent": false,
+          "Name": "XL430-W250-T_1AxisServo \u003c2\u003e",
+          "Suppressed": false,
+          "PartId": "JFD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "aba5816b089d3e872fd1a2e7",
+          "DocumentMicroversion": "2fbca2a342bbe6231ee4101b",
+          "DocumentVersion": "59d0151853aac160895d2e83",
+          "ElementId": "d5bd7b839a96c40163f4ccc7"
+        },
+        {
+          "Type": "Part",
+          "Id": "Mv7hdUadfiLGhLSRD",
+          "IsStandardContent": false,
+          "Name": "XL430-W250-T_1AxisServo \u003c3\u003e",
+          "Suppressed": false,
+          "PartId": "JFD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "aba5816b089d3e872fd1a2e7",
+          "DocumentMicroversion": "2fbca2a342bbe6231ee4101b",
+          "DocumentVersion": "59d0151853aac160895d2e83",
+          "ElementId": "d5bd7b839a96c40163f4ccc7"
+        },
+        {
+          "Type": "Part",
+          "Id": "MVoACEE6RItOBaaOM",
+          "IsStandardContent": false,
+          "Name": "XL430-W250-T_1AxisServo \u003c4\u003e",
+          "Suppressed": false,
+          "PartId": "JFD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "aba5816b089d3e872fd1a2e7",
+          "DocumentMicroversion": "2fbca2a342bbe6231ee4101b",
+          "DocumentVersion": "59d0151853aac160895d2e83",
+          "ElementId": "d5bd7b839a96c40163f4ccc7"
+        },
+        {
+          "Type": "Part",
+          "Id": "M0E4EUnrBirM7Gx83",
+          "IsStandardContent": false,
+          "Name": "XL430-W250-T_1AxisServo \u003c5\u003e",
+          "Suppressed": false,
+          "PartId": "JFD",
+          "FullConfiguration": "default",
+          "Configuration": "default",
+          "DocumentId": "aba5816b089d3e872fd1a2e7",
+          "DocumentMicroversion": "2fbca2a342bbe6231ee4101b",
+          "DocumentVersion": "59d0151853aac160895d2e83",
+          "ElementId": "d5bd7b839a96c40163f4ccc7"
+        }
+      ],
+      "FullConfiguration": "default",
+      "Configuration": "default",
+      "DocumentId": "95aae2326e64668874170188",
+      "ElementId": "23be748229a0504457778dde",
+      "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+      "DocumentVersion": ""
+    },
+    "SubAssemblies": [],
+    "Parts": [
+      {
+        "IsStandardContent": false,
+        "PartId": "JHD",
+        "BodyType": "solid",
+        "FullConfiguration": "default",
+        "Configuration": "default",
+        "DocumentId": "95aae2326e64668874170188",
+        "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+        "DocumentVersion": "",
+        "ElementId": "33039fc8c0056b8a6b871501",
+        "MateConnectors": null
+      },
+      {
+        "IsStandardContent": false,
+        "PartId": "JFD",
+        "BodyType": "solid",
+        "FullConfiguration": "default",
+        "Configuration": "default",
+        "DocumentId": "aba5816b089d3e872fd1a2e7",
+        "DocumentMicroversion": "2fbca2a342bbe6231ee4101b",
+        "DocumentVersion": "59d0151853aac160895d2e83",
+        "ElementId": "d5bd7b839a96c40163f4ccc7",
+        "MateConnectors": null
+      },
+      {
+        "IsStandardContent": false,
+        "PartId": "JHD",
+        "BodyType": "solid",
+        "FullConfiguration": "default",
+        "Configuration": "default",
+        "DocumentId": "95aae2326e64668874170188",
+        "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+        "DocumentVersion": "",
+        "ElementId": "de9919cd75b78551786f851b",
+        "MateConnectors": null
+      },
+      {
+        "IsStandardContent": false,
+        "PartId": "JHD",
+        "BodyType": "solid",
+        "FullConfiguration": "default",
+        "Configuration": "default",
+        "DocumentId": "95aae2326e64668874170188",
+        "DocumentMicroversion": "da49bd3cd35f9212fc3e9286",
+        "DocumentVersion": "",
+        "ElementId": "c91c14d9e1f4e9e0fee158b4",
+        "MateConnectors": null
+      }
+    ],
+    "PartStudioFeatures": []
+  },
+  "BTAssemblyFeatureListResponse1174": {
+    "SourceMicroversion": "da49bd3cd35f9212fc3e9286",
+    "FeatureStates": {
+      "M9WHwFa+HfE4QVDSZ": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      },
+      "MMisxoa/F22ItJuN6": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      },
+      "MOY9UdBCfn1naYsml": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      },
+      "Ma51WkOgz+7GxeB4T": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      },
+      "Mbhy2YJxTRMD9xVQe": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      },
+      "MdGT0+xftRKCp9q9h": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      },
+      "Miq1lslwTNDYGqG5b": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      },
+      "MqpC9cImQXVa8IAhh": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      },
+      "MrYHzqJuCnmqotBE5": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      },
+      "Mz5RYMxTIS0uQY3Fu": {
+        "FeatureStatus": "OK",
+        "Inactive": false
+      }
+    },
+    "Features": [
+      {
+        "FeatureType": "mate",
+        "Name": "J1",
+        "FeatureId": "MMisxoa/F22ItJuN6",
+        "Parameters": [
+          {
+            "NodeId": "cuE99nsk9pCe6Hez",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "ZiSMFoUWlHZz4KPu",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "jxh7TY9dmrJKMigN",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "KpGh79zG7sTcI1YM",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "dZy7m1cNe71+tyiJ",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "mP3If6YuAewvXS38",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "sKhBE7SYliSrI4on",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "kvD31sb+hptjb5FU",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "gU8bUroh1+4j2W0Z",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "j+hOdmQ4x93cgMI/",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "P1ACoH9eth6hLIR0",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "QN7dsaXvKaa1WKat",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "FJ6V45IPG84ehq/8",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "kxx/+VGbPMv5EoFs",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "ulAieNhEz34muW5r",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Ei6/OfR3V3773xha",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "j/TdTh4iivvTHRKt",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Q1HSa9Dip947pugy",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "F3IdrZgM1f3F3bUl",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Hu3hyJetk5GO4/Ws",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "Ml30XvQm+bFHX8eZ",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "zG5EIRlIyts5IsDz",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "1bJ9oxsVtjZkFfBx",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "NVijqHd4dNhSy5lg",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "vg0s70+pnDCdgAKi",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "gOWPWUeLjGDgfczk",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      },
+      {
+        "FeatureType": "mate",
+        "Name": "J2",
+        "FeatureId": "MqpC9cImQXVa8IAhh",
+        "Parameters": [
+          {
+            "NodeId": "jjiyFb5mgRrLZfnT",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "QhXVXPGpqHtVJnjh",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "sLusolzfYUNEG0Vs",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "mXxYoVm/4UTV/SLY",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "YtbOCvCqkkRLyA3y",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "w9Nk1zbMsG5Wf7vR",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "60qGelcHD48vzNXu",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "Pr5WVc2JZSoz6Pfz",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "/8/ikXM6yoITMKm7",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "a6tXFbFPdZT6/4MI",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "ZDR9IJh6f7p5tHE6",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "3i3NNkOqPWwfYsfo",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "OZv+1OAT0QI/sI+T",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "TkX4uMzzql/v5kzX",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "P/BOhXapCS8yqOkV",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "oFMbJs+RN19TxQZK",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "QqpCHdSttoOgPmD5",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "L9PCsv9dGti+Vr46",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "AfXPBLcF5UGLQu0e",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "fWRClPw1lb4LVwuU",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "BJ4Rl8jWcCxcddI+",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "RiKc4HJPUzQPykw+",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "eUE7q+dv01ZYALql",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "G63K4E3mTRHaCUTR",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "9Is+C/KPG8+ECUGh",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "pUfL2Vy/txaTst2J",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      },
+      {
+        "FeatureType": "mate",
+        "Name": "J3",
+        "FeatureId": "MrYHzqJuCnmqotBE5",
+        "Parameters": [
+          {
+            "NodeId": "hcNVXjmm83vfOZx0",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "TKtlpc4lTJJwLx9h",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "6v8PNltmVoogPVsP",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "pNJjLGuBHwARP8iO",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "3+U8OdLrmPpgyn7w",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Eo50dZaCLBEGMVJZ",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "FVibNvX/RjWlvsAk",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "IJdfvHwbRviA0xDZ",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Y4Uj/ddSAxxq5iYI",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "2jXU2soU+zRY4ZNv",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "2lSL7e9XfmWaXrnR",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "IT8EYsVXquTW2hsn",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "NZDHn/bxO447yc86",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "5qs24YdDyKopox/Z",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "JpxDbWDvUOSHXyzN",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "FJBilS7xMyImDNFP",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "dHv7e6bVXd2Nd7Ax",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "o38r4H5Sqw1KMJao",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "KS2fw6Sz0aKR4m5/",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "0zOi1GS0n7AWUrXq",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "aoyfONoayRezSVBF",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "oqjlAYZr7cXw0X9P",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "SLv4/1Td+pnX86bM",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "wIGkeYwZpCmw9rQ8",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "y917iN9rI7me9zO/",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "KpHfBG/KBDWSoVit",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      },
+      {
+        "FeatureType": "mate",
+        "Name": "J4",
+        "FeatureId": "MOY9UdBCfn1naYsml",
+        "Parameters": [
+          {
+            "NodeId": "/xXsZ383cOZq5wTm",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "Nez05W5kq0iXN54O",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "azD66mF09RUeJ+zi",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "uiAh/gt3KqbKl6qF",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "trk1ruOS474hmh1S",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "7JHWkeyBjCkYQbLl",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Ryh02jizOjuOQE9a",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "ONkBgWsg7xQc28g0",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "oPfycDi3JLzNI0n5",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "3AkqjxOoIP9K7w3E",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Kxkgjr+aU/dwCfRI",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "IgcbhT1garhqtv4a",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Co7bG3PixrrnWXB9",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "gvVBhq/vtEPoo8J2",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "zr9JTwyY7XFA01rQ",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "2DzAAAbdyUaXbE+o",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "zzlK31VQEYPVWscQ",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "giXqqCPUe1XFKxE6",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "rPEI08fRgE/Uai4n",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "1l3oe/RoU6Zpferv",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "i4fhOlFvasgm6leC",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "iueW+2qc0uD0PKGd",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Pzso6Dn9V2EPqgq3",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "+Zoy7arIoBme6Ere",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "md/o+K+F6u3zDbjU",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "U1mbsh4Wa+sd7HoC",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      },
+      {
+        "FeatureType": "mate",
+        "Name": "J5",
+        "FeatureId": "MdGT0+xftRKCp9q9h",
+        "Parameters": [
+          {
+            "NodeId": "K8sZPlYkKFylOsKe",
+            "ParameterId": "mateType",
+            "Value": "REVOLUTE",
+            "Expression": ""
+          },
+          {
+            "NodeId": "U3mc9fjj/NSCZjYD",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "jTgosLWCLelKAZph",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "GJW8ifNqMCa6R003",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "XLtIISggkfHdSrrc",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "yTgOmhdw8XMilRGc",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "FFi+jLKNjXH5PqSk",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "osw33BoNmZNF52F0",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "UEP5cbTX5aRKBFcJ",
+            "ParameterId": "limitsEnabled",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "VwG2Ps6vGoUf5DG+",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "W1z/vISEw20GXbR9",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Oi1mIg10x0I9IWlN",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "0SeiEeh1+9rZTZF7",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "VPXlwOW+BlElmyAo",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "VvWLNwkWLtsUnnUl",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "4mt1B1rjmkhtmzT+",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "pfCNXOrUrZJyDJ0s",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "cLI6+nTgNNp9S0YW",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "zobHzqeIJ88aH3sE",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "SQmYaMjdz7XBH/Ld",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "-80 deg"
+          },
+          {
+            "NodeId": "r46F5N6/UVmFlQTn",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "80 deg"
+          },
+          {
+            "NodeId": "ZvcJFi1vKwiQZ6CI",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "lqZ+HgV/G7b1v/9P",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "0vflz+L4nUNiFOXm",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "p/FRDHnEd3YRZXj0",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "ef7aB17KGOK9/zXq",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_Y",
+            "Expression": ""
+          }
+        ]
+      },
+      {
+        "FeatureType": "mate",
+        "Name": "Fastened 1",
+        "FeatureId": "Mbhy2YJxTRMD9xVQe",
+        "Parameters": [
+          {
+            "NodeId": "ApFL2Y05Wfd0yzXQ",
+            "ParameterId": "mateType",
+            "Value": "FASTENED",
+            "Expression": ""
+          },
+          {
+            "NodeId": "MB7zOvwuvZXQZTx9",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "rnSi+PmZVNc5YhP1",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "8k/LAenIJvH++t9R",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "gRn5Ro9JMDZ1y8uw",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "MyGRk2FCTd501WSG",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "b0/O2QqgvF6vJwq8",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "LGxrlj+eUr4psQ74",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "vPIcCsV/nQj6rRKu",
+            "ParameterId": "limitsEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "0Mmprxz2frqXkwtQ",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "MibHitN8AW7Rr647",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "7IAQ4Knnuhoy4jLI",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Bh8Jaj+kkagk1ptc",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "vWrpE1e4YKW1i1rH",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "BGNHw8tFmlQGMSIk",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "gyvGJC6M+TuxKB5h",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "+o9IYdhVO6fMC7TV",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "eNddxz5LFv5G6kUV",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "iWUAg11u12yDQ+Zy",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Fvb91IH0dm2qvQlt",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "gLbUsDO+4pGHUv0h",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "H6UP6brGbTJC4lRl",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "TPnX/CDi1e8Suav7",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "D8btcw+ZEVneiy4n",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "URgFhrDLR1ab26sv",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "mFk8pxwLQOvwPKgQ",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_X",
+            "Expression": ""
+          }
+        ]
+      },
+      {
+        "FeatureType": "mate",
+        "Name": "Fastened 2",
+        "FeatureId": "Ma51WkOgz+7GxeB4T",
+        "Parameters": [
+          {
+            "NodeId": "B1jUs5WdDnqz+Z9X",
+            "ParameterId": "mateType",
+            "Value": "FASTENED",
+            "Expression": ""
+          },
+          {
+            "NodeId": "r+9+BNYfEmYZ0gqR",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "9QtB2W0kOqNl8tx5",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "vIhtUOHldP+J+jji",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "gKhY2ZT1pIcNyNM9",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "QEoLkD6Lsur9QAH3",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "9UYUlnjr9anstZT6",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "Vr9Rrxz5GZu0bt+I",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "eI4/T9c7Niv1fhuy",
+            "ParameterId": "limitsEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "MesTqAprowCLCSVR",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "jUsoHuOIGjTONe4P",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "DmU1R25ofZER4xp1",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "t86bKh+ijmgFVexY",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "n7qE8DJhQAhV35Ww",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "2WXr0dgTSDefgetf",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "txh22CvL8HH0fqjG",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "Al9qQpryQ3vofSpz",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "yA1ikw4XX6fOI8cd",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "GXrGIdx69jL9pfUL",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "uoBbaJ+I5yU6aRuV",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "UddmryRuabEftFoj",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "aqUmZmtYc5HLQMy+",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "1ojrHpfRJOtkdqk5",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "DazZS2gBQIVEyjDz",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "g+vXLYGdBSQgTU7e",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "7n2eMWIkrN6lb0md",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_X",
+            "Expression": ""
+          }
+        ]
+      },
+      {
+        "FeatureType": "mate",
+        "Name": "Fastened 3",
+        "FeatureId": "Mz5RYMxTIS0uQY3Fu",
+        "Parameters": [
+          {
+            "NodeId": "lk/KbRBoo587Mm3X",
+            "ParameterId": "mateType",
+            "Value": "FASTENED",
+            "Expression": ""
+          },
+          {
+            "NodeId": "vVBoRI406rtiT+Fx",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "Z+UisIbGCbAr/mXw",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "ItKJEk64ubnn0M9y",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "EmXs+unJ4wdQ01Fq",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Kl8T8jqQKoGy8ALk",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "i6b5IV32e63eA/xQ",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "uRwmtA4itV3111DJ",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "c2w8/r3G6PctLfmc",
+            "ParameterId": "limitsEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "j0pf/OF3s+ABiMxl",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "BMgXUWjK99FPW2ZI",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "ERHf78xcKJn2F0B+",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "McqxHg0xaUp0jeXo",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "5F/6CTMNkKnI8wec",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "6ThBa282AlRNqNYs",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "YcX/cj0+Ja6YGZht",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "za78o76V6f3RnTfk",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "pSdiiegNnD1/Q/vA",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "q9wDOFbqAjEGmO2W",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "6T1NfPdErP1xgK/t",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "y/964MUxJMvt/oVO",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "DDF0XMH+8LjLmrjP",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "usoJBJpgSOZ/a65X",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "cKiln5D+Hby/WhLw",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "8syR8HFOtNrSQtq+",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "GFHiJXSKS6fwEbC1",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_X",
+            "Expression": ""
+          }
+        ]
+      },
+      {
+        "FeatureType": "mate",
+        "Name": "Fastened 4",
+        "FeatureId": "Miq1lslwTNDYGqG5b",
+        "Parameters": [
+          {
+            "NodeId": "Tdk3/DHBCTPBBNoB",
+            "ParameterId": "mateType",
+            "Value": "FASTENED",
+            "Expression": ""
+          },
+          {
+            "NodeId": "XEkG8PmaYM1WCA2q",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "rkQLzuE7Hya7rnF6",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "qLdPjTBQCnPIvTIM",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "IxaUtQ9ootd7GZl2",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Vg1wn04frpYHsgVj",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "evGWhcp9ku7va6Ex",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "Kzn4SmKcBtB2dR8G",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "3TBAV3ATabx95lLU",
+            "ParameterId": "limitsEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "zgjc7H8oEFNambTx",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "Dw9Vh+JPlNMyzPnW",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "2SIxOGYUN/8ZSsxC",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "F50bXJzvvy6dL/0F",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "xQT8gT+r7aS/ZUCF",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "aG0ns2IWoyYAgEFD",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "G1+nzm0fCq6hJ5Us",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "8KXEi5zjWZnXObRi",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "qx3OA2P7qQpENdif",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "iT2uwi1ffJp4GP/f",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "TU+BPvnysqCrsHTr",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "sbIrRfwKK4uiTXK8",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "twJSiRrlWGLsRAsb",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "cSyp6y6S8n4fqkBc",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "Pe2yQZEGBLffA9QG",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "buZEa32mqVAZtrXU",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "ld6b2BC2Ty3btqAV",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_X",
+            "Expression": ""
+          }
+        ]
+      },
+      {
+        "FeatureType": "mate",
+        "Name": "Fastened 5",
+        "FeatureId": "M9WHwFa+HfE4QVDSZ",
+        "Parameters": [
+          {
+            "NodeId": "+cFZrYNScDW7MPSK",
+            "ParameterId": "mateType",
+            "Value": "FASTENED",
+            "Expression": ""
+          },
+          {
+            "NodeId": "ortp3CrywLvGud+5",
+            "ParameterId": "mateConnectorsQuery",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "dyHGZ90w4o+GwVzV",
+            "ParameterId": "mateOffsetEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "gIACEwWzaMGjfalC",
+            "ParameterId": "mateOffsetDistanceX",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "phtQzBK/2eLWZUr0",
+            "ParameterId": "mateOffsetDistanceY",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "EFxo675iLfOyR6DH",
+            "ParameterId": "mateOffsetDistanceZ",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "8Sj/YYLINhNHxiuO",
+            "ParameterId": "rotationType",
+            "Value": "ABOUT_X",
+            "Expression": ""
+          },
+          {
+            "NodeId": "LLobfcZthkQCNy3x",
+            "ParameterId": "rotation",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "aU+zW6mc3VWpiy27",
+            "ParameterId": "limitsEnabled",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "LcZ/se1YJyneTLa4",
+            "ParameterId": "limitXMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "keFh8Kr2ZKBXXoA8",
+            "ParameterId": "limitXMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "6y91FhgjQTKeNMx+",
+            "ParameterId": "limitYMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "f3Mmte/nGKZyagiL",
+            "ParameterId": "limitYMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "GyZCY1WZScR+QV/f",
+            "ParameterId": "limitZMin",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "OAUW+F8SGPTrUrqR",
+            "ParameterId": "limitZMax",
+            "Value": 0,
+            "Expression": "0 mm"
+          },
+          {
+            "NodeId": "iej+HNbKpR4hYLE4",
+            "ParameterId": "limitAxialXMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "XI06rTT+oynxJBul",
+            "ParameterId": "limitAxialXMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "hf/i8hGRvVnepMmw",
+            "ParameterId": "limitAxialYMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "w2dq9DfBh5PpIWCT",
+            "ParameterId": "limitAxialYMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "wunitY03TGLwoPao",
+            "ParameterId": "limitAxialZMin",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "27NXSp8KVRAMHSE5",
+            "ParameterId": "limitAxialZMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "M60nlq8GYufCGJXd",
+            "ParameterId": "limitEulerConeAngleMax",
+            "Value": 0,
+            "Expression": "0 deg"
+          },
+          {
+            "NodeId": "FxxMmoVK4LmLk1Le",
+            "ParameterId": "functionalconnection",
+            "Value": false,
+            "Expression": ""
+          },
+          {
+            "NodeId": "fOxiNnPoJjeOP3JC",
+            "ParameterId": "facestoconnect",
+            "Value": null,
+            "Expression": ""
+          },
+          {
+            "NodeId": "oBksBXaWW+TfhjWH",
+            "ParameterId": "primaryAxisAlignment",
+            "Value": true,
+            "Expression": ""
+          },
+          {
+            "NodeId": "ke1/BtXBB51zW/eL",
+            "ParameterId": "secondaryAxisAlignment",
+            "Value": "PLUS_X",
+            "Expression": ""
+          }
+        ]
+      }
+    ]
+  },
+  "BTDocumentElementInfo": {
+    "Id": "23be748229a0504457778dde",
+    "ElementType": "ASSEMBLY",
+    "PrettyType": "",
+    "Type": "Assembly",
+    "DataType": "onshape/assembly",
+    "Name": "100mm Assembly",
+    "Filename": "",
+    "MicroversionId": "f0c9216d76a2ed009fe84a6f",
+    "ForeignDataId": "",
+    "ThumbnailInfo": null
+  },
+  "NamedPositions": [
+    {
+      "Id": "ONrEZHELv59EuY8u",
+      "Name": "ZeroPose"
+    }
+  ]
+}
